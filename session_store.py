@@ -263,3 +263,138 @@ def get_unique_sessions() -> int:
     with _connect() as conn:
         row = conn.execute("SELECT COUNT(*) AS n FROM sessions").fetchone()
     return row["n"] if row else 0
+
+
+# ---------------------------------------------------------------------------
+# Admin data helpers (called by /api/data/* endpoints in main.py)
+# ---------------------------------------------------------------------------
+
+def parse_range(
+    range_: str,
+    date_from: Optional[str],
+    date_to: Optional[str],
+) -> Tuple[str, str]:
+    """Return (start, end) ISO strings for the requested range.
+
+    Custom from/to are used as-is. Preset ranges are relative to UTC now.
+    Timestamps in the exchanges table are stored as UTC with a 'Z' suffix so
+    string comparison works correctly as long as all values use the same format.
+    """
+    now = datetime.utcnow()
+    if date_from and date_to:
+        return date_from, date_to
+    offsets = {"day": 1, "week": 7, "month": 30, "year": 365}
+    days = offsets.get(range_, 1)
+    start = now - timedelta(days=days)
+    return start.isoformat() + "Z", now.isoformat() + "Z"
+
+
+def get_stats(start: str, end: str) -> dict:
+    """Summary counts for exchanges whose timestamp falls in [start, end]."""
+    with _connect() as conn:
+        total_sessions = conn.execute(
+            "SELECT COUNT(DISTINCT session_id) AS n FROM exchanges"
+            " WHERE timestamp >= ? AND timestamp <= ?",
+            (start, end),
+        ).fetchone()["n"]
+        agg = conn.execute(
+            "SELECT COUNT(*) AS n, AVG(response_time_ms) AS avg_rt"
+            " FROM exchanges WHERE timestamp >= ? AND timestamp <= ?",
+            (start, end),
+        ).fetchone()
+        role_rows = conn.execute(
+            "SELECT user_role, COUNT(*) AS n FROM exchanges"
+            " WHERE timestamp >= ? AND timestamp <= ? GROUP BY user_role",
+            (start, end),
+        ).fetchall()
+    exchanges_by_role = {(r["user_role"] or "unknown"): r["n"] for r in role_rows}
+    return {
+        "start": start,
+        "end": end,
+        "total_sessions": total_sessions,
+        "total_exchanges": agg["n"],
+        "avg_response_time_ms": agg["avg_rt"],
+        "exchanges_by_role": exchanges_by_role,
+    }
+
+
+def count_exchanges(start: str, end: str, role: Optional[str] = None) -> int:
+    """Count exchanges in [start, end], optionally filtered by role."""
+    with _connect() as conn:
+        if role:
+            row = conn.execute(
+                "SELECT COUNT(*) AS n FROM exchanges"
+                " WHERE timestamp >= ? AND timestamp <= ? AND user_role = ?",
+                (start, end, role),
+            ).fetchone()
+        else:
+            row = conn.execute(
+                "SELECT COUNT(*) AS n FROM exchanges"
+                " WHERE timestamp >= ? AND timestamp <= ?",
+                (start, end),
+            ).fetchone()
+    return row["n"] if row else 0
+
+
+def list_exchanges(
+    start: str,
+    end: str,
+    role: Optional[str] = None,
+    limit: int = 50,
+    offset: int = 0,
+) -> list:
+    """Paginated list of exchanges, newest first."""
+    with _connect() as conn:
+        if role:
+            rows = conn.execute(
+                "SELECT * FROM exchanges"
+                " WHERE timestamp >= ? AND timestamp <= ? AND user_role = ?"
+                " ORDER BY timestamp DESC LIMIT ? OFFSET ?",
+                (start, end, role, limit, offset),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                "SELECT * FROM exchanges"
+                " WHERE timestamp >= ? AND timestamp <= ?"
+                " ORDER BY timestamp DESC LIMIT ? OFFSET ?",
+                (start, end, limit, offset),
+            ).fetchall()
+    return [dict(r) for r in rows]
+
+
+def iter_exchanges(start: str, end: str, role: Optional[str] = None):
+    """Yield exchange rows in ascending timestamp order (for streaming export)."""
+    with _connect() as conn:
+        if role:
+            rows = conn.execute(
+                "SELECT * FROM exchanges"
+                " WHERE timestamp >= ? AND timestamp <= ? AND user_role = ?"
+                " ORDER BY timestamp ASC",
+                (start, end, role),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                "SELECT * FROM exchanges"
+                " WHERE timestamp >= ? AND timestamp <= ?"
+                " ORDER BY timestamp ASC",
+                (start, end),
+            ).fetchall()
+    for row in rows:
+        yield dict(row)
+
+
+def get_session_with_history(session_id: str) -> Optional[dict]:
+    """Full session record with ISO string timestamps, for the detail endpoint."""
+    session = get_session(session_id)
+    if session is None:
+        return None
+    return {
+        "session_id": session["session_id"],
+        "user_role": session["user_role"],
+        "query_count": session["query_count"],
+        "conversation_query_count": session["conversation_query_count"],
+        "exchange_count": session["exchange_count"],
+        "created_at": session["created_at"].isoformat(),
+        "last_activity": session["last_activity"].isoformat(),
+        "conversation_history": session["conversation_history"],
+    }
