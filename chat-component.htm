@@ -1,0 +1,114 @@
+<!-- chat-component.htm - Enhanced ChatGPT-Style Component -->
+<!-- This component can be included in other pages using: <div w3-include-html="llm-chat/chat-component.htm"></div> -->
+
+<!-- Main Interactive UI Container -->
+<div class="scoping-container">
+    <!-- === UI ENHANCEMENT: Animated Dot Network Background === -->
+    <canvas id="dotsCanvas"></canvas>
+
+    <!-- Initial Query Section (hidden when conversation is active) -->
+    <div id="initial-query-section" style="position: relative;">
+        <div class="scoping-hero">
+            <h1 class="scoping-title">ITS Architecture Assistant</h1>
+            <p class="scoping-subtitle">Select your role and ask questions about ITS architecture, service packages, requirements, and more.</p>
+        </div>
+
+        <div class="scoping-input-wrapper">
+            <form id="scoping-form" class="scoping-form">
+                <div class="input-with-button">
+                    <input
+                        type="text"
+                        id="scoping-input"
+                        class="scoping-input"
+                        placeholder="Select your role below, then ask a question..."
+                        required
+                    />
+                    <button type="submit" id="scoping-submit-btn" class="scoping-submit-btn">
+                        Send
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="input-error" class="error-message-inline" style="display: none;">
+                    <span id="input-error-text"></span>
+                </div>
+            </form>
+        </div>
+
+        <p class="role-selection-label">Select your role:</p>
+
+        <div class="template-chips-container">
+            <div id="role-chips-row" class="template-chips-row">
+                <button class="template-chip role-chip" data-role="POLICY_MAKER" type="button">
+                    <span class="chip-icon">🏛️</span>
+                    <span class="chip-text">Policy Maker / Funding Agency</span>
+                </button>
+                <button class="template-chip role-chip" data-role="CONSULTANT" type="button">
+                    <span class="chip-icon">🔧</span>
+                    <span class="chip-text">Consultant / System Integrator</span>
+                </button>
+                <button class="template-chip role-chip" data-role="MPO_STAFF" type="button">
+                    <span class="chip-icon">🏢</span>
+                    <span class="chip-text">MPO or Transit Agency Staff</span>
+                </button>
+                <button class="template-chip role-chip" data-role="PLANNER" type="button">
+                    <span class="chip-icon">📊</span>
+                    <span class="chip-text">Transportation Planner</span>
+                </button>
+                <button class="template-chip role-chip" data-role="ENGINEER" type="button">
+                    <span class="chip-icon">⚙️</span>
+                    <span class="chip-text">Traffic Operations Engineer</span>
+                </button>
+            </div>
+            <div id="role-error" class="error-message-inline" style="display: none;">
+                <span id="role-error-text"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conversation Section (hidden by default, shown when conversation is active) -->
+    <div id="scoping-results" class="scoping-results" style="display: none;">
+        <div class="results-header">
+            <h2>Conversation</h2>
+            <div class="action-buttons">
+                <button id="new-conversation-btn" class="action-button" type="button">
+                    Start New Conversation
+                </button>
+            </div>
+        </div>
+
+        <!-- Conversation Thread -->
+        <div id="results-content" class="results-content">
+            <!-- Generated conversation messages will appear here -->
+        </div>
+
+        <!-- Follow-up Input Area -->
+        <div id="followup-section" class="followup-section">
+            <form id="followup-form" class="followup-form">
+                <div class="followup-input-wrapper">
+                    <input
+                        type="text"
+                        id="followup-input"
+                        class="followup-input"
+                        placeholder="Ask a follow-up question..."
+                    />
+                    <button type="submit" id="followup-submit-btn" class="followup-submit-btn">
+                        Send
+                    </button>
+                </div>
+            </form>
+
+            <!-- Query Counters at Bottom -->
+            <div class="conversation-counters">
+                <span id="conversation-counter-badge" class="counter-badge">
+                    3 of 3 queries remaining
+                </span>
+                <span class="counter-separator">|</span>
+                <span id="query-counter-badge" class="counter-badge">
+                    10 daily queries remaining
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
