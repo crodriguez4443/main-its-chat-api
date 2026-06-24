@@ -21,7 +21,7 @@
 
     // Railway API base URL
     // UPDATE FOR EACH PROJECT DEPLOYMENT: Change this to your deployed backend URL
-    const API_BASE_URL = 'https://web-production-63bf4.up.railway.app';
+    const API_BASE_URL = 'https://main-its-chat-api-production.up.railway.app/';
 
     // Session state management
     let sessionState = {
