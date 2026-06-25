@@ -262,7 +262,7 @@ if not gemini_api_key:
     raise ValueError(f"GEMINI_API_KEY environment variable not set. Available env vars with 'gemini'/'api': {available_vars}")
 client = genai.Client(
     api_key=gemini_api_key,
-    http_options=types.HttpOptions(timeout=25_000),
+    http_options=types.HttpOptions(timeout=120_000),
 )
 
 # ============================================================================
@@ -1210,11 +1210,22 @@ def _generate_with_retry(gemini_contents: list, system_instruction: str):
             last_exc = e
             code = getattr(e, 'code', None) or getattr(e, 'status_code', None)
             print(
-                f"\n[ALERT] Gemini 503 on attempt {attempt}/{total_attempts} "
+                f"\n[ALERT] Gemini server error on attempt {attempt}/{total_attempts} "
                 f"(model={GEMINI_PRO_MODEL}, code={code}, "
                 f"call_dur={time.monotonic() - attempt_start:.2f}s, "
                 f"total_elapsed={elapsed():.2f}s): {e}"
             )
+            # Only 503 UNAVAILABLE is a transient overload signal worth retrying on
+            # the same model. A 504 DEADLINE_EXCEEDED (or any other server error) is
+            # deterministic for this prompt + deadline — retrying the same model with
+            # identical params just burns the budget for a guaranteed repeat failure.
+            # Break out of the primary loop and let the fallback model take one shot.
+            if code != 503:
+                print(
+                    f"[ALERT] Non-retryable server error (code={code}); "
+                    f"skipping remaining primary attempts, proceeding to fallback"
+                )
+                break
 
     if remaining() < _FALLBACK_MIN_BUDGET_S:
         print(
