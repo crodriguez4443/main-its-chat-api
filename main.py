@@ -196,7 +196,7 @@ def load_content_data():
 wiki_variants = {}                 # variant name -> concatenated markdown blob
 DEFAULT_VARIANT = "technical"      # richest tier; fallback when a role/variant is missing
 WIKI_VARIANTS = ("technical", "planning", "strategic")
-WIKI_DIR = os.path.join(os.path.dirname(__file__), 'wiki_sketch', 'wiki')
+WIKI_DIR = os.path.join(os.path.dirname(__file__), 'wiki', 'wiki')
 
 def load_wiki_content():
     """Load each pre-built wiki variant into wiki_variants (variant -> blob).
