@@ -1147,7 +1147,7 @@ DMS are typically controlled from Traffic Management Centers, where operators ca
 # ============================================================================
 
 _RETRY_DELAYS = [1, 2]  # seconds between primary-model attempts
-_WALLCLOCK_BUDGET_S = 180.0  # hard ceiling across all retries + fallback
+_WALLCLOCK_BUDGET_S = 300.0  # hard ceiling across all retries + fallback
 _FALLBACK_MIN_BUDGET_S = 10.0  # only attempt fallback if this much budget remains
 
 def _generate_with_retry(gemini_contents: list, system_instruction: str):
