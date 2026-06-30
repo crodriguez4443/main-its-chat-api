@@ -7,35 +7,38 @@ Road weather information systems, mobile weather observations. (also: winter mai
 ### Weather Services
 *RWIS, mobile observations, weather alerts, spot weather impact warning, roadway micro-prediction (also: road weather information system, ESS, environmental sensor station, weather station, road weather station)*
 
-- [Service Package mpSH1_WX01-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_WX01-02(Co-Mun))
-- [Service Package mpSH28_WX01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH28_WX01-01(MaineDOT))
-- [Service Package mpSH28_WX01-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH28_WX01-02(Co-Mun))
-- [Service Package mpSH3_WX01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX01-01(MaineDOT))
-- [Service Package mpSH7_WX01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_WX01-01(MaineDOT))
-- [Service Package mpSH7_WX01-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_WX01-02(Co-Mun))
-- [Service Package mpSH111_WX02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH111_WX02-02(MaineDOT))
-- [Service Package mpSH111_WX02-05(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH111_WX02-05(Co-Mun))
-- [Service Package mpSH112_WX02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_WX02-01(MaineDOT))
-- [Service Package mpSH114_WX02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH114_WX02-02(MaineDOT))
-- [Service Package mpSH1_WX02-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_WX02-04(Co-Mun))
-- [Service Package mpSH1_WX02-05(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_WX02-05(Co-Mun))
-- [Service Package mpSH21_WX02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_WX02-02(MaineDOT))
-- [Service Package mpSH21_WX02-05(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_WX02-05(Co-Mun))
-- [Service Package mpSH28_WX02-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH28_WX02-04(Co-Mun))
-- [Service Package mpSH3_WX02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX02-01(MaineDOT))
-- [Service Package mpSH3_WX02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX02-02(MaineDOT))
-- [Service Package mpSH3_WX02-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX02-03(MaineDOT))
-- [Service Package mpSH64_WX02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_WX02-01(MaineDOT))
-- [Service Package mpSH64_WX02-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_WX02-04(Co-Mun))
-- [Service Package mpSH68_WX02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_WX02-01(MaineDOT))
-- [Service Package mpSH68_WX02-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_WX02-04(Co-Mun))
-- [Service Package mpSH7_WX02-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_WX02-03(MaineDOT))
-- [Service Package mpSH7_WX02-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_WX02-04(Co-Mun))
-- [Service Package mpSH92_WX02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_WX02-01(MaineDOT))
-- [Service Package mpSH1_WX03-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_WX03-02(Co-Mun))
-- [Service Package mpSH3_WX03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX03-01(MaineDOT))
-- [Service Package mpSH3_WX03-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX03-02(Co-Mun))
-- [Service Package mpSH5_WX03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_WX03-01(MaineDOT))
+- [mpSH1_WX01-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_WX01-02(Co-Mun))
+- [mpSH28_WX01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH28_WX01-01(MaineDOT))
+- [mpSH28_WX01-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH28_WX01-02(Co-Mun))
+- [mpSH3_WX01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX01-01(MaineDOT))
+- [mpSH7_WX01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_WX01-01(MaineDOT))
+- [mpSH7_WX01-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_WX01-02(Co-Mun))
+  - *Implements:* [MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=35), [Roadway Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=33), [TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=95), [TMC Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=36)
+- [mpSH111_WX02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH111_WX02-02(MaineDOT))
+- [mpSH111_WX02-05(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH111_WX02-05(Co-Mun))
+- [mpSH112_WX02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_WX02-01(MaineDOT))
+- [mpSH114_WX02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH114_WX02-02(MaineDOT))
+- [mpSH1_WX02-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_WX02-04(Co-Mun))
+- [mpSH1_WX02-05(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_WX02-05(Co-Mun))
+- [mpSH21_WX02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_WX02-02(MaineDOT))
+- [mpSH21_WX02-05(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_WX02-05(Co-Mun))
+- [mpSH28_WX02-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH28_WX02-04(Co-Mun))
+- [mpSH3_WX02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX02-01(MaineDOT))
+- [mpSH3_WX02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX02-02(MaineDOT))
+- [mpSH3_WX02-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX02-03(MaineDOT))
+- [mpSH64_WX02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_WX02-01(MaineDOT))
+- [mpSH64_WX02-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_WX02-04(Co-Mun))
+- [mpSH68_WX02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_WX02-01(MaineDOT))
+- [mpSH68_WX02-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_WX02-04(Co-Mun))
+- [mpSH7_WX02-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_WX02-03(MaineDOT))
+- [mpSH7_WX02-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_WX02-04(Co-Mun))
+- [mpSH92_WX02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_WX02-01(MaineDOT))
+  - *Implements:* [Emergency Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=225), [MCM Environmental Information Processing](https://www.consystec.com/maine2026/web/funreq.htm?id=38), [TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=95), [TMC Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=36), [Transit Center Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=431)
+- [mpSH1_WX03-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_WX03-02(Co-Mun))
+- [mpSH3_WX03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX03-01(MaineDOT))
+- [mpSH3_WX03-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_WX03-02(Co-Mun))
+- [mpSH5_WX03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_WX03-01(MaineDOT))
+  - *Implements:* [Roadway Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=33), [Roadway Variable Speed Limits](https://www.consystec.com/maine2026/web/funreq.htm?id=25), [TIC Road Weather Advisories and Warnings](https://www.consystec.com/maine2026/web/funreq.htm?id=32), [TMC Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=36), [TMC Variable Speed Limits](https://www.consystec.com/maine2026/web/funreq.htm?id=24), [Vehicle Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=30), [Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=23)
 
 ## Key Elements (22 total)
 
@@ -81,43 +84,32 @@ Real information flows between elements in this service area, in the form *Sourc
 - [Functional Requirements: Transit Vehicle On-Board Information Services](https://www.consystec.com/maine2026/web/funreq.htm?id=160)
 - [Functional Requirements: TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=177)
 - [Functional Requirements: MCM Winter Maintenance Management](https://www.consystec.com/maine2026/web/funreq.htm?id=214)
-- [Functional Requirements: Emergency Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=225)
-- [Functional Requirements: Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=23)
-- [Functional Requirements: TIC Road Weather Advisories and Warnings](https://www.consystec.com/maine2026/web/funreq.htm?id=32)
-- [Functional Requirements: Roadway Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=33)
+- [Functional Requirements: Emergency Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=225) — implemented by WX02
+- [Functional Requirements: Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=23) — implemented by WX03
+- [Functional Requirements: TIC Road Weather Advisories and Warnings](https://www.consystec.com/maine2026/web/funreq.htm?id=32) — implemented by WX03
+- [Functional Requirements: Roadway Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=33) — implemented by WX01, WX03
 - [Functional Requirements: MCV Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=34)
-- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=35)
-- [Functional Requirements: TMC Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=36)
-- [Functional Requirements: MCM Environmental Information Processing](https://www.consystec.com/maine2026/web/funreq.htm?id=38)
+- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=35) — implemented by WX01
+- [Functional Requirements: TMC Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=36) — implemented by WX01, WX02, WX03
+- [Functional Requirements: MCM Environmental Information Processing](https://www.consystec.com/maine2026/web/funreq.htm?id=38) — implemented by WX02
 - [Functional Requirements: TMC Road Weather Advisories and Warnings](https://www.consystec.com/maine2026/web/funreq.htm?id=428)
-- [Functional Requirements: Transit Center Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=431)
+- [Functional Requirements: Transit Center Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=431) — implemented by WX02
 - [Functional Requirements: TIC Traveler Information Broadcast](https://www.consystec.com/maine2026/web/funreq.htm?id=55)
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=83)
 - [Functional Requirements: TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=_el104)
 - [Functional Requirements: MCV Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=_el127)
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el130)
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el153)
-- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el168)
-- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el172)
-- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el177)
-- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el248)
+- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el168) — implemented by WX01
+- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el172) — implemented by WX01
+- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el177) — implemented by WX01
+- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el248) — implemented by WX01
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el254)
 - [Functional Requirements: TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=_el263)
-- [Functional Requirements: Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=_el275)
-- [Functional Requirements: Transit Center Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=_el293)
-- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el47)
+- [Functional Requirements: Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=_el275) — implemented by WX03
+- [Functional Requirements: Transit Center Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=_el293) — implemented by WX02
+- [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el47) — implemented by WX01
 - [Functional Requirements: MCV Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=_el48)
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el52)
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el68)
 
-## Deployment Guidance
-
-When planning a deployment in Weather:
-
-1. **Identify the service packages** that apply to your use case from the list above.
-2. **Review the elements** — these are the systems and devices you will need. Check their Status (Existing vs Planned) to understand what is already deployed.
-3. **Look up the functional requirements** — these define WHAT each element must do. They map directly to RFP/RFI specification sections.
-4. **Check the interfaces** — these define HOW elements communicate. Each interface specifies data flows and applicable standards.
-5. **Reference the standards** — for each interface, the architecture specifies which standards (NTCIP, TMDD, SAE, IEEE, etc.) should be used.
-
-For a DOT preparing an RFI/RFP, the functional requirements are your specification backbone. Each requirement can be traced from service package → element → functional requirement → interface → standard.

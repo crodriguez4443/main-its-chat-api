@@ -7,14 +7,15 @@ Device management, mapping, location services, communications infrastructure.
 ### Support Services
 *Map management, device management, cybersecurity, communications, object registration, device certification, center/field/vehicle/personnel maintenance, remote access, VRU device transition*
 
-- [Service Package mpSH112_SU03-02(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_SU03-02(MaineTpk))
-- [Service Package mpSH1_SU03-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_SU03-02(Co-Mun))
-- [Service Package mpSH1_SU03-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_SU03-03(Co-Mun))
-- [Service Package mpSH1_SU03-03(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_SU03-03(Transit))
-- [Service Package mpSH1_SU03-04(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_SU03-04(Transit))
-- [Service Package mpSH21_SU03-03(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_SU03-03(Transit))
-- [Service Package mpSH21_SU03-04(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_SU03-04(Transit))
-- [Service Package mpSH3_SU03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_SU03-01(MaineDOT))
+- [mpSH112_SU03-02(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_SU03-02(MaineTpk))
+- [mpSH1_SU03-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_SU03-02(Co-Mun))
+- [mpSH1_SU03-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_SU03-03(Co-Mun))
+- [mpSH1_SU03-03(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_SU03-03(Transit))
+- [mpSH1_SU03-04(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_SU03-04(Transit))
+- [mpSH21_SU03-03(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_SU03-03(Transit))
+- [mpSH21_SU03-04(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_SU03-04(Transit))
+- [mpSH3_SU03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_SU03-01(MaineDOT))
+  - *Implements:* [ITS Data Subscription Management](https://www.consystec.com/maine2026/web/funreq.htm?id=204)
 
 ## Key Elements (12 total)
 
@@ -64,7 +65,7 @@ Real information flows between elements in this service area, in the form *Sourc
 - [Functional Requirements: Fleet Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=194)
 - [Functional Requirements: CV On-Board Trip Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=195)
 - [Functional Requirements: CV On-Board Safety and Security](https://www.consystec.com/maine2026/web/funreq.htm?id=197)
-- [Functional Requirements: ITS Data Subscription Management](https://www.consystec.com/maine2026/web/funreq.htm?id=204)
+- [Functional Requirements: ITS Data Subscription Management](https://www.consystec.com/maine2026/web/funreq.htm?id=204) — implemented by SU03
 - [Functional Requirements: MCV Winter Maintenance](https://www.consystec.com/maine2026/web/funreq.htm?id=215)
 - [Functional Requirements: RSE Traveler Information Communications](https://www.consystec.com/maine2026/web/funreq.htm?id=22)
 - [Functional Requirements: Emergency Commercial Vehicle Response](https://www.consystec.com/maine2026/web/funreq.htm?id=226)
@@ -100,26 +101,15 @@ Real information flows between elements in this service area, in the form *Sourc
 - [Functional Requirements: Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=_el252)
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el254)
 - [Functional Requirements: Field Asset Identification](https://www.consystec.com/maine2026/web/funreq.htm?id=_el264)
-- [Functional Requirements: ITS Data Subscription Management](https://www.consystec.com/maine2026/web/funreq.htm?id=_el265)
+- [Functional Requirements: ITS Data Subscription Management](https://www.consystec.com/maine2026/web/funreq.htm?id=_el265) — implemented by SU03
 - [Functional Requirements: RSE Intersection Management](https://www.consystec.com/maine2026/web/funreq.htm?id=_el268)
 - [Functional Requirements: CV On-Board Cargo Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=_el41)
 - [Functional Requirements: EV On-Board En Route Support](https://www.consystec.com/maine2026/web/funreq.htm?id=_el44)
-- [Functional Requirements: ITS Data Subscription Management](https://www.consystec.com/maine2026/web/funreq.htm?id=_el45)
+- [Functional Requirements: ITS Data Subscription Management](https://www.consystec.com/maine2026/web/funreq.htm?id=_el45) — implemented by SU03
 - [Functional Requirements: EV On-Board En Route Support](https://www.consystec.com/maine2026/web/funreq.htm?id=_el49)
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el52)
 - [Functional Requirements: Fleet Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el61)
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el68)
-- [Functional Requirements: ITS Data Subscription Management](https://www.consystec.com/maine2026/web/funreq.htm?id=_el71)
+- [Functional Requirements: ITS Data Subscription Management](https://www.consystec.com/maine2026/web/funreq.htm?id=_el71) — implemented by SU03
 - [Functional Requirements: Roadway Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el82)
 
-## Deployment Guidance
-
-When planning a deployment in Support:
-
-1. **Identify the service packages** that apply to your use case from the list above.
-2. **Review the elements** — these are the systems and devices you will need. Check their Status (Existing vs Planned) to understand what is already deployed.
-3. **Look up the functional requirements** — these define WHAT each element must do. They map directly to RFP/RFI specification sections.
-4. **Check the interfaces** — these define HOW elements communicate. Each interface specifies data flows and applicable standards.
-5. **Reference the standards** — for each interface, the architecture specifies which standards (NTCIP, TMDD, SAE, IEEE, etc.) should be used.
-
-For a DOT preparing an RFI/RFP, the functional requirements are your specification backbone. Each requirement can be traced from service package → element → functional requirement → interface → standard.

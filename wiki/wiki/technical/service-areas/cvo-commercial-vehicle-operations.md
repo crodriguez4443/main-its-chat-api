@@ -7,51 +7,61 @@ Freight credentialing, electronic screening, HAZMAT tracking, oversize/overweigh
 ### Commercial Vehicle Operations
 *Credentialing, screening, HAZMAT, fleet management, freight administration, road weather, drayage optimization, HAZMAT security, driver logs, intelligent access, speed compliance, international border (also: hazardous material, hazardous materials, dangerous goods, HAZMAT routing; also: winter maintenance, anti-icing, de-icing, snow removal, weather responsive management)*
 
-- [Service Package mpSH36_CVO01-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO01-01)
-- [Service Package mpSH41_CVO01-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO01-01)
-- [Service Package mpSH75_CVO01-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH75_CVO01-01)
-- [Service Package mpSH36_CVO03-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO03-01)
-- [Service Package mpSH36_CVO03-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO03-02)
-- [Service Package mpSH41_CVO03-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO03-01)
-- [Service Package mpSH42_CVO03-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH42_CVO03-01)
-- [Service Package mpSH51_CVO03-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH51_CVO03-02)
-- [Service Package mpSH52_CVO03-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH52_CVO03-02)
-- [Service Package mpSH75_CVO03-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH75_CVO03-01)
-- [Service Package mpSH36_CVO04-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO04-01)
-- [Service Package mpSH36_CVO04-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO04-02)
-- [Service Package mpSH41_CVO04-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO04-01)
-- [Service Package mpSH51_CVO04-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH51_CVO04-02)
-- [Service Package mpSH52_CVO04-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH52_CVO04-02)
-- [Service Package mpSH3_CVO05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_CVO05-01(MaineDOT))
-- [Service Package mpSH5_CVO05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_CVO05-01(MaineDOT))
-- [Service Package mpSH36_CVO07-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO07-01)
-- [Service Package mpSH36_CVO07-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO07-02)
-- [Service Package mpSH41_CVO07-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO07-01)
-- [Service Package mpSH42_CVO07-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH42_CVO07-01)
-- [Service Package mpSH42_CVO07-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH42_CVO07-02)
-- [Service Package mpSH36_CVO08-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO08-01)
-- [Service Package mpSH3_CVO08-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_CVO08-01)
-- [Service Package mpSH41_CVO08-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO08-01)
-- [Service Package mpSH3_CVO09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_CVO09-01(MaineDOT))
-- [Service Package mpSH41_CVO09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO09-01(MaineDOT))
-- [Service Package mpSH72_CVO09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH72_CVO09-01(MaineDOT))
-- [Service Package mpSH28_CVO10-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH28_CVO10-01(MaineDOT))
-- [Service Package mpSH3_CVO10-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_CVO10-01(MaineDOT))
-- [Service Package mpSH41_CVO10-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO10-01(MaineDOT))
-- [Service Package mpSH7_CVO10-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_CVO10-01(MaineDOT))
-- [Service Package mpSH1_CVO12-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_CVO12-01)
-- [Service Package mpSH3_CVO12-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_CVO12-01)
-- [Service Package mpSH64_CVO12-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_CVO12-01)
-- [Service Package mpSH68_CVO12-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_CVO12-01)
-- [Service Package mpSH92_CVO12-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_CVO12-01)
-- [Service Package mpSH36_CVO21-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO21-01)
-- [Service Package mpSH41_CVO21-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO21-01)
-- [Service Package mpSH41_CVO21-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO21-02)
-- [Service Package mpSH42_CVO21-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH42_CVO21-01)
-- [Service Package mpSH5_CVO21-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_CVO21-01)
-- [Service Package mpSH70_CVO21-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH70_CVO21-02)
-- [Service Package mpSH72_CVO21-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH72_CVO21-01)
-- [Service Package mpSH72_CVO21-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH72_CVO21-02)
+- [mpSH36_CVO01-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO01-01)
+- [mpSH41_CVO01-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO01-01)
+- [mpSH75_CVO01-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH75_CVO01-01)
+  - *Implements:* [CV On-Board Safety and Security](https://www.consystec.com/maine2026/web/funreq.htm?id=197), [CV On-Board Trip Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=195), [Fleet Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=194), [Fleet Maintenance Management](https://www.consystec.com/maine2026/web/funreq.htm?id=451)
+- [mpSH36_CVO03-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO03-01)
+- [mpSH36_CVO03-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO03-02)
+- [mpSH41_CVO03-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO03-01)
+- [mpSH42_CVO03-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH42_CVO03-01)
+- [mpSH51_CVO03-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH51_CVO03-02)
+- [mpSH52_CVO03-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH52_CVO03-02)
+- [mpSH75_CVO03-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH75_CVO03-01)
+  - *Implements:* [CV On-Board Cargo Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=145), [CV On-Board Electronic Screening Support](https://www.consystec.com/maine2026/web/funreq.htm?id=189), [CV On-Board Safety and Security](https://www.consystec.com/maine2026/web/funreq.htm?id=197), [CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=185), [CVAC Safety and Security Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=186), [CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=199), [CVCE Electronic Screening](https://www.consystec.com/maine2026/web/funreq.htm?id=187), [CVCE Weigh-In-Motion](https://www.consystec.com/maine2026/web/funreq.htm?id=347)
+- [mpSH36_CVO04-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO04-01)
+- [mpSH36_CVO04-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO04-02)
+- [mpSH41_CVO04-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO04-01)
+- [mpSH51_CVO04-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH51_CVO04-02)
+- [mpSH52_CVO04-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH52_CVO04-02)
+  - *Implements:* [CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=201), [CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=185), [Fleet Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=194), [Fleet Credentials and Taxes Management and Reporting](https://www.consystec.com/maine2026/web/funreq.htm?id=316)
+- [mpSH3_CVO05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_CVO05-01(MaineDOT))
+- [mpSH5_CVO05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_CVO05-01(MaineDOT))
+  - *Implements:* [Personal Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=116), [Roadway Traffic Information Dissemination](https://www.consystec.com/maine2026/web/funreq.htm?id=18), [TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=177), [TMC Traffic Information Dissemination](https://www.consystec.com/maine2026/web/funreq.htm?id=13)
+- [mpSH36_CVO07-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO07-01)
+- [mpSH36_CVO07-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO07-02)
+- [mpSH41_CVO07-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO07-01)
+- [mpSH42_CVO07-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH42_CVO07-01)
+- [mpSH42_CVO07-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH42_CVO07-02)
+  - *Implements:* [CV On-Board Electronic Screening Support](https://www.consystec.com/maine2026/web/funreq.htm?id=189), [CV On-Board Safety and Security](https://www.consystec.com/maine2026/web/funreq.htm?id=197), [CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=185), [CVAC Safety and Security Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=186), [CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=199), [CVCE Electronic Screening](https://www.consystec.com/maine2026/web/funreq.htm?id=187), [CVCE Safety and Security Inspection](https://www.consystec.com/maine2026/web/funreq.htm?id=200)
+- [mpSH36_CVO08-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO08-01)
+- [mpSH3_CVO08-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_CVO08-01)
+- [mpSH41_CVO08-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO08-01)
+  - *Implements:* [CV On-Board Cargo Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=145), [CV On-Board Electronic Screening Support](https://www.consystec.com/maine2026/web/funreq.htm?id=189), [CV On-Board Safety and Security](https://www.consystec.com/maine2026/web/funreq.htm?id=197), [CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=201), [CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=185), [CVAC Safety and Security Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=186), [CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=199), [CVCE Electronic Screening](https://www.consystec.com/maine2026/web/funreq.htm?id=187), [CVCE Safety and Security Inspection](https://www.consystec.com/maine2026/web/funreq.htm?id=200), [CVCE Weigh-In-Motion](https://www.consystec.com/maine2026/web/funreq.htm?id=347)
+- [mpSH3_CVO09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_CVO09-01(MaineDOT))
+- [mpSH41_CVO09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO09-01(MaineDOT))
+- [mpSH72_CVO09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH72_CVO09-01(MaineDOT))
+  - *Implements:* [CV On-Board Trip Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=195), [Fleet Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=194), [Freight Administration and Management](https://www.consystec.com/maine2026/web/funreq.htm?id=5), [TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=95), [TIC Freight-Specific Travel Planning](https://www.consystec.com/maine2026/web/funreq.htm?id=196), [TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=177)
+- [mpSH28_CVO10-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH28_CVO10-01(MaineDOT))
+- [mpSH3_CVO10-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_CVO10-01(MaineDOT))
+- [mpSH41_CVO10-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO10-01(MaineDOT))
+- [mpSH7_CVO10-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_CVO10-01(MaineDOT))
+  - *Implements:* [CV On-Board Trip Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=195), [Fleet Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=194), [TIC Road Weather Advisories and Warnings](https://www.consystec.com/maine2026/web/funreq.htm?id=32), [TIC Situation Data Management](https://www.consystec.com/maine2026/web/funreq.htm?id=172), [TMC Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=36)
+- [mpSH1_CVO12-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_CVO12-01)
+- [mpSH3_CVO12-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_CVO12-01)
+- [mpSH64_CVO12-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_CVO12-01)
+- [mpSH68_CVO12-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_CVO12-01)
+- [mpSH92_CVO12-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_CVO12-01)
+  - *Implements:* [Emergency Commercial Vehicle Response](https://www.consystec.com/maine2026/web/funreq.htm?id=226)
+- [mpSH36_CVO21-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH36_CVO21-01)
+- [mpSH41_CVO21-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO21-01)
+- [mpSH41_CVO21-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH41_CVO21-02)
+- [mpSH42_CVO21-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH42_CVO21-01)
+- [mpSH5_CVO21-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_CVO21-01)
+- [mpSH70_CVO21-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH70_CVO21-02)
+- [mpSH72_CVO21-01](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH72_CVO21-01)
+- [mpSH72_CVO21-02](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH72_CVO21-02)
+  - *Implements:* [Border Inspection Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=188), [CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=185), [CVAC International Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=184), [Freight Administration and Management](https://www.consystec.com/maine2026/web/funreq.htm?id=5)
 
 ## Key Elements (35 total)
 
@@ -151,51 +161,40 @@ Communication and data standards referenced by the interfaces above.
 
 ## Related Functional Requirements (36 found)
 
-- [Functional Requirements: CV On-Board Cargo Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=145)
+- [Functional Requirements: CV On-Board Cargo Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=145) — implemented by CVO03, CVO08
 - [Functional Requirements: RSE Border Management](https://www.consystec.com/maine2026/web/funreq.htm?id=181)
 - [Functional Requirements: Border Inspection](https://www.consystec.com/maine2026/web/funreq.htm?id=182)
-- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=185)
-- [Functional Requirements: CVAC Safety and Security Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=186)
-- [Functional Requirements: CVCE Electronic Screening](https://www.consystec.com/maine2026/web/funreq.htm?id=187)
-- [Functional Requirements: CV On-Board Electronic Screening Support](https://www.consystec.com/maine2026/web/funreq.htm?id=189)
-- [Functional Requirements: Fleet Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=194)
-- [Functional Requirements: CV On-Board Trip Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=195)
-- [Functional Requirements: TIC Freight-Specific Travel Planning](https://www.consystec.com/maine2026/web/funreq.htm?id=196)
-- [Functional Requirements: CV On-Board Safety and Security](https://www.consystec.com/maine2026/web/funreq.htm?id=197)
-- [Functional Requirements: CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=199)
-- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=201)
-- [Functional Requirements: Emergency Commercial Vehicle Response](https://www.consystec.com/maine2026/web/funreq.htm?id=226)
-- [Functional Requirements: Fleet Credentials and Taxes Management and Reporting](https://www.consystec.com/maine2026/web/funreq.htm?id=316)
-- [Functional Requirements: CVCE Weigh-In-Motion](https://www.consystec.com/maine2026/web/funreq.htm?id=347)
+- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=185) — implemented by CVO03, CVO04, CVO07, CVO08, CVO21
+- [Functional Requirements: CVAC Safety and Security Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=186) — implemented by CVO03, CVO07, CVO08
+- [Functional Requirements: CVCE Electronic Screening](https://www.consystec.com/maine2026/web/funreq.htm?id=187) — implemented by CVO03, CVO07, CVO08
+- [Functional Requirements: CV On-Board Electronic Screening Support](https://www.consystec.com/maine2026/web/funreq.htm?id=189) — implemented by CVO03, CVO07, CVO08
+- [Functional Requirements: Fleet Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=194) — implemented by CVO01, CVO04, CVO09, CVO10
+- [Functional Requirements: CV On-Board Trip Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=195) — implemented by CVO01, CVO09, CVO10
+- [Functional Requirements: TIC Freight-Specific Travel Planning](https://www.consystec.com/maine2026/web/funreq.htm?id=196) — implemented by CVO09
+- [Functional Requirements: CV On-Board Safety and Security](https://www.consystec.com/maine2026/web/funreq.htm?id=197) — implemented by CVO01, CVO03, CVO07, CVO08
+- [Functional Requirements: CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=199) — implemented by CVO03, CVO07, CVO08
+- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=201) — implemented by CVO04, CVO08
+- [Functional Requirements: Emergency Commercial Vehicle Response](https://www.consystec.com/maine2026/web/funreq.htm?id=226) — implemented by CVO12
+- [Functional Requirements: Fleet Credentials and Taxes Management and Reporting](https://www.consystec.com/maine2026/web/funreq.htm?id=316) — implemented by CVO04
+- [Functional Requirements: CVCE Weigh-In-Motion](https://www.consystec.com/maine2026/web/funreq.htm?id=347) — implemented by CVO03, CVO08
 - [Functional Requirements: TMC Incident Detection](https://www.consystec.com/maine2026/web/funreq.htm?id=378)
-- [Functional Requirements: Fleet Maintenance Management](https://www.consystec.com/maine2026/web/funreq.htm?id=451)
-- [Functional Requirements: Freight Administration and Management](https://www.consystec.com/maine2026/web/funreq.htm?id=5)
-- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el1)
-- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el105)
-- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=_el111)
-- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el114)
-- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=_el190)
-- [Functional Requirements: CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=_el204)
-- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=_el205)
-- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=_el206)
+- [Functional Requirements: Fleet Maintenance Management](https://www.consystec.com/maine2026/web/funreq.htm?id=451) — implemented by CVO01
+- [Functional Requirements: Freight Administration and Management](https://www.consystec.com/maine2026/web/funreq.htm?id=5) — implemented by CVO09, CVO21
+- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el1) — implemented by CVO04, CVO08
+- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el105) — implemented by CVO04, CVO08
+- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=_el111) — implemented by CVO03, CVO04, CVO07, CVO08, CVO21
+- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el114) — implemented by CVO04, CVO08
+- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=_el190) — implemented by CVO03, CVO04, CVO07, CVO08, CVO21
+- [Functional Requirements: CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=_el204) — implemented by CVO03, CVO07, CVO08
+- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=_el205) — implemented by CVO03, CVO04, CVO07, CVO08, CVO21
+- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=_el206) — implemented by CVO03, CVO04, CVO07, CVO08, CVO21
 - [Functional Requirements: Border Inspection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el237)
 - [Functional Requirements: TMC Incident Detection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el4)
-- [Functional Requirements: CV On-Board Cargo Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=_el41)
-- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=_el57)
-- [Functional Requirements: CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=_el58)
-- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el59)
-- [Functional Requirements: Fleet Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el61)
-- [Functional Requirements: CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=_el81)
-- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el99)
+- [Functional Requirements: CV On-Board Cargo Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=_el41) — implemented by CVO03, CVO08
+- [Functional Requirements: CVAC Information Exchange](https://www.consystec.com/maine2026/web/funreq.htm?id=_el57) — implemented by CVO03, CVO04, CVO07, CVO08, CVO21
+- [Functional Requirements: CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=_el58) — implemented by CVO03, CVO07, CVO08
+- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el59) — implemented by CVO04, CVO08
+- [Functional Requirements: Fleet Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el61) — implemented by CVO01, CVO04, CVO09, CVO10
+- [Functional Requirements: CVCE Citation and Accident Electronic Recording](https://www.consystec.com/maine2026/web/funreq.htm?id=_el81) — implemented by CVO03, CVO07, CVO08
+- [Functional Requirements: CVAC Credentials and Taxes Administration](https://www.consystec.com/maine2026/web/funreq.htm?id=_el99) — implemented by CVO04, CVO08
 
-## Deployment Guidance
-
-When planning a deployment in Commercial Vehicle Operations:
-
-1. **Identify the service packages** that apply to your use case from the list above.
-2. **Review the elements** — these are the systems and devices you will need. Check their Status (Existing vs Planned) to understand what is already deployed.
-3. **Look up the functional requirements** — these define WHAT each element must do. They map directly to RFP/RFI specification sections.
-4. **Check the interfaces** — these define HOW elements communicate. Each interface specifies data flows and applicable standards.
-5. **Reference the standards** — for each interface, the architecture specifies which standards (NTCIP, TMDD, SAE, IEEE, etc.) should be used.
-
-For a DOT preparing an RFI/RFP, the functional requirements are your specification backbone. Each requirement can be traced from service package → element → functional requirement → interface → standard.

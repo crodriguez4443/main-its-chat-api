@@ -7,48 +7,49 @@ ITS data archiving, performance measurement, data warehousing.
 ### Data Management
 *ITS data archiving, performance measurement, NPMRDS (also: national performance management research data set, probe data, travel time data, speed data)*
 
-- [Service Package mpSH111_DM01-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH111_DM01-03(MaineDOT))
-- [Service Package mpSH112_DM01-05(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_DM01-05(MaineTpk))
-- [Service Package mpSH1_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-01(MaineDOT))
-- [Service Package mpSH1_DM01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-02(MaineDOT))
-- [Service Package mpSH1_DM01-06(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-06(Co-Mun))
-- [Service Package mpSH1_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-07(MPO))
-- [Service Package mpSH1_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-09(MPO))
-- [Service Package mpSH1_DM01-10(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-10(Co-Mun))
-- [Service Package mpSH20_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-01(MaineDOT))
-- [Service Package mpSH20_DM01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-02(MaineDOT))
-- [Service Package mpSH20_DM01-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-03(MaineDOT))
-- [Service Package mpSH20_DM01-04(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-04(MaineDOT))
-- [Service Package mpSH20_DM01-05(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-05(MaineTpk))
-- [Service Package mpSH20_DM01-06(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-06(Co-Mun))
-- [Service Package mpSH20_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-07(MPO))
-- [Service Package mpSH20_DM01-08(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-08(MaineDOT))
-- [Service Package mpSH20_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-09(MPO))
-- [Service Package mpSH20_DM01-10(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-10(Co-Mun))
-- [Service Package mpSH21_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_DM01-01(MaineDOT))
-- [Service Package mpSH21_DM01-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_DM01-03(MaineDOT))
-- [Service Package mpSH3_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-01(MaineDOT))
-- [Service Package mpSH3_DM01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-02(MaineDOT))
-- [Service Package mpSH3_DM01-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-03(MaineDOT))
-- [Service Package mpSH3_DM01-04(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-04(MaineDOT))
-- [Service Package mpSH3_DM01-05(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-05(MaineTpk))
-- [Service Package mpSH3_DM01-06(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-06(Co-Mun))
-- [Service Package mpSH3_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-07(MPO))
-- [Service Package mpSH3_DM01-08(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-08(MaineDOT))
-- [Service Package mpSH3_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-09(MPO))
-- [Service Package mpSH3_DM01-10(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-10(Co-Mun))
-- [Service Package mpSH68_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_DM01-01(MaineDOT))
-- [Service Package mpSH68_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_DM01-07(MPO))
-- [Service Package mpSH68_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_DM01-09(MPO))
-- [Service Package mpSH74_DM01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-02(MaineDOT))
-- [Service Package mpSH74_DM01-05(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-05(MaineTpk))
-- [Service Package mpSH74_DM01-06(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-06(Co-Mun))
-- [Service Package mpSH74_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-07(MPO))
-- [Service Package mpSH74_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-09(MPO))
-- [Service Package mpSH74_DM01-10(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-10(Co-Mun))
-- [Service Package mpSH75_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH75_DM01-01(MaineDOT))
-- [Service Package mpSH92_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_DM01-07(MPO))
-- [Service Package mpSH92_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_DM01-09(MPO))
+- [mpSH111_DM01-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH111_DM01-03(MaineDOT))
+- [mpSH112_DM01-05(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_DM01-05(MaineTpk))
+- [mpSH1_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-01(MaineDOT))
+- [mpSH1_DM01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-02(MaineDOT))
+- [mpSH1_DM01-06(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-06(Co-Mun))
+- [mpSH1_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-07(MPO))
+- [mpSH1_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-09(MPO))
+- [mpSH1_DM01-10(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_DM01-10(Co-Mun))
+- [mpSH20_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-01(MaineDOT))
+- [mpSH20_DM01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-02(MaineDOT))
+- [mpSH20_DM01-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-03(MaineDOT))
+- [mpSH20_DM01-04(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-04(MaineDOT))
+- [mpSH20_DM01-05(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-05(MaineTpk))
+- [mpSH20_DM01-06(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-06(Co-Mun))
+- [mpSH20_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-07(MPO))
+- [mpSH20_DM01-08(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-08(MaineDOT))
+- [mpSH20_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-09(MPO))
+- [mpSH20_DM01-10(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH20_DM01-10(Co-Mun))
+- [mpSH21_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_DM01-01(MaineDOT))
+- [mpSH21_DM01-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_DM01-03(MaineDOT))
+- [mpSH3_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-01(MaineDOT))
+- [mpSH3_DM01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-02(MaineDOT))
+- [mpSH3_DM01-03(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-03(MaineDOT))
+- [mpSH3_DM01-04(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-04(MaineDOT))
+- [mpSH3_DM01-05(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-05(MaineTpk))
+- [mpSH3_DM01-06(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-06(Co-Mun))
+- [mpSH3_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-07(MPO))
+- [mpSH3_DM01-08(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-08(MaineDOT))
+- [mpSH3_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-09(MPO))
+- [mpSH3_DM01-10(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_DM01-10(Co-Mun))
+- [mpSH68_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_DM01-01(MaineDOT))
+- [mpSH68_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_DM01-07(MPO))
+- [mpSH68_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_DM01-09(MPO))
+- [mpSH74_DM01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-02(MaineDOT))
+- [mpSH74_DM01-05(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-05(MaineTpk))
+- [mpSH74_DM01-06(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-06(Co-Mun))
+- [mpSH74_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-07(MPO))
+- [mpSH74_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-09(MPO))
+- [mpSH74_DM01-10(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH74_DM01-10(Co-Mun))
+- [mpSH75_DM01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH75_DM01-01(MaineDOT))
+- [mpSH92_DM01-07(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_DM01-07(MPO))
+- [mpSH92_DM01-09(MPO)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_DM01-09(MPO))
+  - *Implements:* [Archive Data Repository](https://www.consystec.com/maine2026/web/funreq.htm?id=221), [Archive Situation Data Archival](https://www.consystec.com/maine2026/web/funreq.htm?id=219), [Emergency Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=304), [MCM Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=322), [Parking Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=338), [Roadway Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=350), [TIC Operations Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=318), [TMC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=429), [Transit Center Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=393)
 
 ## Key Elements (21 total)
 
@@ -156,37 +157,26 @@ Real information flows between elements in this service area, in the form *Sourc
 
 - [Functional Requirements: RSE Traffic Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=104)
 - [Functional Requirements: TIC Situation Data Management](https://www.consystec.com/maine2026/web/funreq.htm?id=172)
-- [Functional Requirements: Archive Situation Data Archival](https://www.consystec.com/maine2026/web/funreq.htm?id=219)
-- [Functional Requirements: Emergency Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=304)
-- [Functional Requirements: TIC Operations Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=318)
-- [Functional Requirements: MCM Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=322)
-- [Functional Requirements: Parking Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=338)
+- [Functional Requirements: Archive Situation Data Archival](https://www.consystec.com/maine2026/web/funreq.htm?id=219) — implemented by DM01
+- [Functional Requirements: Emergency Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=304) — implemented by DM01
+- [Functional Requirements: TIC Operations Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=318) — implemented by DM01
+- [Functional Requirements: MCM Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=322) — implemented by DM01
+- [Functional Requirements: Parking Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=338) — implemented by DM01
 - [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=35)
-- [Functional Requirements: Roadway Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=350)
+- [Functional Requirements: Roadway Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=350) — implemented by DM01
 - [Functional Requirements: TMC Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=36)
 - [Functional Requirements: TMC Situation Data Management](https://www.consystec.com/maine2026/web/funreq.htm?id=380)
-- [Functional Requirements: Transit Center Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=393)
+- [Functional Requirements: Transit Center Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=393) — implemented by DM01
 - [Functional Requirements: TMC Road Weather Advisories and Warnings](https://www.consystec.com/maine2026/web/funreq.htm?id=428)
-- [Functional Requirements: TMC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=429)
+- [Functional Requirements: TMC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=429) — implemented by DM01
 - [Functional Requirements: TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=95)
 - [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el168)
 - [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el172)
 - [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el177)
 - [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el248)
-- [Functional Requirements: Transit Center Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el276)
+- [Functional Requirements: Transit Center Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el276) — implemented by DM01
 - [Functional Requirements: TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el46)
 - [Functional Requirements: MCM Environmental Information Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el47)
 - [Functional Requirements: TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el70)
-- [Functional Requirements: Roadway Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el82)
+- [Functional Requirements: Roadway Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el82) — implemented by DM01
 
-## Deployment Guidance
-
-When planning a deployment in Data Management:
-
-1. **Identify the service packages** that apply to your use case from the list above.
-2. **Review the elements** — these are the systems and devices you will need. Check their Status (Existing vs Planned) to understand what is already deployed.
-3. **Look up the functional requirements** — these define WHAT each element must do. They map directly to RFP/RFI specification sections.
-4. **Check the interfaces** — these define HOW elements communicate. Each interface specifies data flows and applicable standards.
-5. **Reference the standards** — for each interface, the architecture specifies which standards (NTCIP, TMDD, SAE, IEEE, etc.) should be used.
-
-For a DOT preparing an RFI/RFP, the functional requirements are your specification backbone. Each requirement can be traced from service package → element → functional requirement → interface → standard.

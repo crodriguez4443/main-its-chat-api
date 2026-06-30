@@ -7,54 +7,58 @@
 ### Traveler Information Services
 *511, third-party data feeds, multimodal alerts, personalized info, en-route guidance, electronic payment, personal wayfinding, travel services reservation (also: traveler information system, travel info, road conditions, traffic conditions, travel advisory)*
 
-- [Service Package mpSH112_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_TI01-01(MaineDOT))
-- [Service Package mpSH1_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI01-01(MaineDOT))
-- [Service Package mpSH1_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI01-03(Co-Mun))
-- [Service Package mpSH1_TI01-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI01-04(Co-Mun))
-- [Service Package mpSH21_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_TI01-01(MaineDOT))
-- [Service Package mpSH21_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_TI01-03(Co-Mun))
-- [Service Package mpSH3_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI01-01(MaineDOT))
-- [Service Package mpSH3_TI01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI01-02(MaineDOT))
-- [Service Package mpSH3_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI01-03(Co-Mun))
-- [Service Package mpSH5_TI01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI01-02(MaineDOT))
-- [Service Package mpSH5_TI01-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI01-04(Co-Mun))
-- [Service Package mpSH64_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_TI01-01(MaineDOT))
-- [Service Package mpSH64_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_TI01-03(Co-Mun))
-- [Service Package mpSH68_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_TI01-01(MaineDOT))
-- [Service Package mpSH68_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_TI01-03(Co-Mun))
-- [Service Package mpSH6_TI01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH6_TI01-02(MaineDOT))
-- [Service Package mpSH6_TI01-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH6_TI01-04(Co-Mun))
-- [Service Package mpSH83_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_TI01-01(MaineDOT))
-- [Service Package mpSH83_TI01-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_TI01-04(Co-Mun))
-- [Service Package mpSH92_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_TI01-01(MaineDOT))
-- [Service Package mpSH92_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_TI01-03(Co-Mun))
-- [Service Package mpSH111_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH111_TI02-01(MaineDOT))
-- [Service Package mpSH111_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH111_TI02-04(State))
-- [Service Package mpSH112_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_TI02-01(MaineDOT))
-- [Service Package mpSH1_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI02-01(MaineDOT))
-- [Service Package mpSH1_TI02-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI02-03(Co-Mun))
-- [Service Package mpSH1_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI02-04(State))
-- [Service Package mpSH21_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_TI02-01(MaineDOT))
-- [Service Package mpSH21_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_TI02-04(State))
-- [Service Package mpSH28_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH28_TI02-01(MaineDOT))
-- [Service Package mpSH3_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI02-01(MaineDOT))
-- [Service Package mpSH3_TI02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI02-02(MaineDOT))
-- [Service Package mpSH3_TI02-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI02-03(Co-Mun))
-- [Service Package mpSH3_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI02-04(State))
-- [Service Package mpSH5_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI02-01(MaineDOT))
-- [Service Package mpSH5_TI02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI02-02(MaineDOT))
-- [Service Package mpSH5_TI02-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI02-03(Co-Mun))
-- [Service Package mpSH64_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_TI02-04(State))
-- [Service Package mpSH6_TI02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH6_TI02-02(MaineDOT))
-- [Service Package mpSH6_TI02-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH6_TI02-03(Co-Mun))
-- [Service Package mpSH7_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_TI02-01(MaineDOT))
-- [Service Package mpSH83_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_TI02-01(MaineDOT))
-- [Service Package mpSH83_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_TI02-04(State))
-- [Service Package mpSH3_TI03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI03-01(MaineDOT))
-- [Service Package mpSH5_TI03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI03-01(MaineDOT))
-- [Service Package mpSH83_TI03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_TI03-01(MaineDOT))
-- [Service Package mpSH3_TI07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI07-01(MaineDOT))
-- [Service Package mpSH5_TI07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI07-01(MaineDOT))
+- [mpSH112_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_TI01-01(MaineDOT))
+- [mpSH1_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI01-01(MaineDOT))
+- [mpSH1_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI01-03(Co-Mun))
+- [mpSH1_TI01-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI01-04(Co-Mun))
+- [mpSH21_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_TI01-01(MaineDOT))
+- [mpSH21_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_TI01-03(Co-Mun))
+- [mpSH3_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI01-01(MaineDOT))
+- [mpSH3_TI01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI01-02(MaineDOT))
+- [mpSH3_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI01-03(Co-Mun))
+- [mpSH5_TI01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI01-02(MaineDOT))
+- [mpSH5_TI01-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI01-04(Co-Mun))
+- [mpSH64_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_TI01-01(MaineDOT))
+- [mpSH64_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_TI01-03(Co-Mun))
+- [mpSH68_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_TI01-01(MaineDOT))
+- [mpSH68_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH68_TI01-03(Co-Mun))
+- [mpSH6_TI01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH6_TI01-02(MaineDOT))
+- [mpSH6_TI01-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH6_TI01-04(Co-Mun))
+- [mpSH83_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_TI01-01(MaineDOT))
+- [mpSH83_TI01-04(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_TI01-04(Co-Mun))
+- [mpSH92_TI01-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_TI01-01(MaineDOT))
+- [mpSH92_TI01-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH92_TI01-03(Co-Mun))
+  - *Implements:* [Personal Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=175), [TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=83), [TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=95), [TIC Traveler Information Broadcast](https://www.consystec.com/maine2026/web/funreq.htm?id=55)
+- [mpSH111_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH111_TI02-01(MaineDOT))
+- [mpSH111_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH111_TI02-04(State))
+- [mpSH112_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_TI02-01(MaineDOT))
+- [mpSH1_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI02-01(MaineDOT))
+- [mpSH1_TI02-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI02-03(Co-Mun))
+- [mpSH1_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_TI02-04(State))
+- [mpSH21_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_TI02-01(MaineDOT))
+- [mpSH21_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_TI02-04(State))
+- [mpSH28_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH28_TI02-01(MaineDOT))
+- [mpSH3_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI02-01(MaineDOT))
+- [mpSH3_TI02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI02-02(MaineDOT))
+- [mpSH3_TI02-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI02-03(Co-Mun))
+- [mpSH3_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI02-04(State))
+- [mpSH5_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI02-01(MaineDOT))
+- [mpSH5_TI02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI02-02(MaineDOT))
+- [mpSH5_TI02-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI02-03(Co-Mun))
+- [mpSH64_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH64_TI02-04(State))
+- [mpSH6_TI02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH6_TI02-02(MaineDOT))
+- [mpSH6_TI02-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH6_TI02-03(Co-Mun))
+- [mpSH7_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH7_TI02-01(MaineDOT))
+- [mpSH83_TI02-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_TI02-01(MaineDOT))
+- [mpSH83_TI02-04(State)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_TI02-04(State))
+  - *Implements:* [Personal Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=116), [TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=95), [TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=177), [TIC Traveler Telephone Information](https://www.consystec.com/maine2026/web/funreq.htm?id=400)
+- [mpSH3_TI03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI03-01(MaineDOT))
+- [mpSH5_TI03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI03-01(MaineDOT))
+- [mpSH83_TI03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_TI03-01(MaineDOT))
+  - *Implements:* [Personal Trip Planning and Route Guidance](https://www.consystec.com/maine2026/web/funreq.htm?id=9), [TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=95), [TIC Trip Planning](https://www.consystec.com/maine2026/web/funreq.htm?id=96)
+- [mpSH3_TI07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_TI07-01(MaineDOT))
+- [mpSH5_TI07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_TI07-01(MaineDOT))
+  - *Implements:* [Roadway Traffic Information Dissemination](https://www.consystec.com/maine2026/web/funreq.htm?id=18), [TMC In-Vehicle Signing Management](https://www.consystec.com/maine2026/web/funreq.htm?id=76), [TMC Traffic Information Dissemination](https://www.consystec.com/maine2026/web/funreq.htm?id=13), [Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=23)
 
 ## Key Elements (24 total)
 
@@ -140,47 +144,36 @@ Communication and data standards referenced by the interfaces above.
 
 ## Related Functional Requirements (32 found)
 
-- [Functional Requirements: Personal Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=116)
+- [Functional Requirements: Personal Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=116) — implemented by TI02
 - [Functional Requirements: TIC Emergency Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=142)
 - [Functional Requirements: TIC Situation Data Management](https://www.consystec.com/maine2026/web/funreq.htm?id=172)
-- [Functional Requirements: Personal Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=175)
-- [Functional Requirements: TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=177)
+- [Functional Requirements: Personal Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=175) — implemented by TI01
+- [Functional Requirements: TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=177) — implemented by TI02
 - [Functional Requirements: RSE Border Management](https://www.consystec.com/maine2026/web/funreq.htm?id=181)
 - [Functional Requirements: TIC Freight-Specific Travel Planning](https://www.consystec.com/maine2026/web/funreq.htm?id=196)
 - [Functional Requirements: RSE Traveler Information Communications](https://www.consystec.com/maine2026/web/funreq.htm?id=22)
-- [Functional Requirements: Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=23)
+- [Functional Requirements: Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=23) — implemented by TI07
 - [Functional Requirements: Emergency Early Warning System](https://www.consystec.com/maine2026/web/funreq.htm?id=305)
 - [Functional Requirements: TIC Operations Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=318)
 - [Functional Requirements: Parking Coordination](https://www.consystec.com/maine2026/web/funreq.htm?id=337)
-- [Functional Requirements: TIC Traveler Telephone Information](https://www.consystec.com/maine2026/web/funreq.htm?id=400)
+- [Functional Requirements: TIC Traveler Telephone Information](https://www.consystec.com/maine2026/web/funreq.htm?id=400) — implemented by TI02
 - [Functional Requirements: Transit Center Park and Ride Operations](https://www.consystec.com/maine2026/web/funreq.htm?id=425)
 - [Functional Requirements: MCM Work Zone Management](https://www.consystec.com/maine2026/web/funreq.htm?id=53)
-- [Functional Requirements: TIC Traveler Information Broadcast](https://www.consystec.com/maine2026/web/funreq.htm?id=55)
-- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=83)
-- [Functional Requirements: Personal Trip Planning and Route Guidance](https://www.consystec.com/maine2026/web/funreq.htm?id=9)
-- [Functional Requirements: TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=95)
-- [Functional Requirements: TIC Trip Planning](https://www.consystec.com/maine2026/web/funreq.htm?id=96)
-- [Functional Requirements: TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=_el104)
-- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el130)
-- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el153)
-- [Functional Requirements: Personal Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=_el187)
+- [Functional Requirements: TIC Traveler Information Broadcast](https://www.consystec.com/maine2026/web/funreq.htm?id=55) — implemented by TI01
+- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=83) — implemented by TI01
+- [Functional Requirements: Personal Trip Planning and Route Guidance](https://www.consystec.com/maine2026/web/funreq.htm?id=9) — implemented by TI03
+- [Functional Requirements: TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=95) — implemented by TI01, TI02, TI03
+- [Functional Requirements: TIC Trip Planning](https://www.consystec.com/maine2026/web/funreq.htm?id=96) — implemented by TI03
+- [Functional Requirements: TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=_el104) — implemented by TI02
+- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el130) — implemented by TI01
+- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el153) — implemented by TI01
+- [Functional Requirements: Personal Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=_el187) — implemented by TI02
 - [Functional Requirements: MCM Work Zone Management](https://www.consystec.com/maine2026/web/funreq.htm?id=_el247)
-- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el254)
-- [Functional Requirements: TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=_el263)
-- [Functional Requirements: Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=_el275)
-- [Functional Requirements: TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el46)
-- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el52)
-- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el68)
-- [Functional Requirements: TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el70)
+- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el254) — implemented by TI01
+- [Functional Requirements: TIC Interactive Traveler Information](https://www.consystec.com/maine2026/web/funreq.htm?id=_el263) — implemented by TI02
+- [Functional Requirements: Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=_el275) — implemented by TI07
+- [Functional Requirements: TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el46) — implemented by TI01, TI02, TI03
+- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el52) — implemented by TI01
+- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el68) — implemented by TI01
+- [Functional Requirements: TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=_el70) — implemented by TI01, TI02, TI03
 
-## Deployment Guidance
-
-When planning a deployment in Traveler Information:
-
-1. **Identify the service packages** that apply to your use case from the list above.
-2. **Review the elements** — these are the systems and devices you will need. Check their Status (Existing vs Planned) to understand what is already deployed.
-3. **Look up the functional requirements** — these define WHAT each element must do. They map directly to RFP/RFI specification sections.
-4. **Check the interfaces** — these define HOW elements communicate. Each interface specifies data flows and applicable standards.
-5. **Reference the standards** — for each interface, the architecture specifies which standards (NTCIP, TMDD, SAE, IEEE, etc.) should be used.
-
-For a DOT preparing an RFI/RFP, the functional requirements are your specification backbone. Each requirement can be traced from service package → element → functional requirement → interface → standard.

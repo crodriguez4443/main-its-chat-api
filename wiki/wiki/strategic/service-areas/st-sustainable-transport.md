@@ -7,16 +7,18 @@ Congestion pricing, transit incentives, emissions management. (also: road pricin
 ### Sustainable Transport
 *Congestion pricing, transit incentives, alternative fuel support, eco-traffic metering, roadside lighting, eco-lanes, eco-approach at signals, low emissions zone management (also: road pricing, cordon pricing, value pricing, dynamic pricing, tolling for congestion)*
 
-- [Service Package mpSH1_ST04-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_ST04-02(Co-Mun))
-- [Service Package mpSH3_ST04-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_ST04-01(MaineDOT))
-- [Service Package mpSH109_ST05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH109_ST05-01(MaineDOT))
-- [Service Package mpSH109_ST05-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH109_ST05-02(MaineDOT))
-- [Service Package mpSH1_ST05-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_ST05-02(MaineDOT))
-- [Service Package mpSH3_ST05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_ST05-01(MaineDOT))
-- [Service Package mpSH5_ST05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_ST05-01(MaineDOT))
-- [Service Package mpSH5_ST05-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_ST05-02(MaineDOT))
-- [Service Package mpSH83_ST05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_ST05-01(MaineDOT))
-- [Service Package mpSH83_ST05-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_ST05-02(MaineDOT))
+- [mpSH1_ST04-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_ST04-02(Co-Mun))
+- [mpSH3_ST04-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_ST04-01(MaineDOT))
+  - *Implements:* [Roadway Basic Surveillance](https://www.consystec.com/maine2026/web/funreq.htm?id=19), [TMC Basic Surveillance](https://www.consystec.com/maine2026/web/funreq.htm?id=14), [TMC Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=36), [TMC Lighting System Control](https://www.consystec.com/maine2026/web/funreq.htm?id=101)
+- [mpSH109_ST05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH109_ST05-01(MaineDOT))
+- [mpSH109_ST05-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH109_ST05-02(MaineDOT))
+- [mpSH1_ST05-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_ST05-02(MaineDOT))
+- [mpSH3_ST05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_ST05-01(MaineDOT))
+- [mpSH5_ST05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_ST05-01(MaineDOT))
+- [mpSH5_ST05-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_ST05-02(MaineDOT))
+- [mpSH83_ST05-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_ST05-01(MaineDOT))
+- [mpSH83_ST05-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_ST05-02(MaineDOT))
+  - *Implements:* [TIC Travel Services Information and Reservation](https://www.consystec.com/maine2026/web/funreq.htm?id=100)
 
 ## Key Elements (10 total)
 
@@ -38,14 +40,3 @@ Congestion pricing, transit incentives, emissions management. (also: road pricin
 - [Functional Requirements: RSE Situation Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=180)
 - [Functional Requirements: TMC Traffic Network Performance Evaluation](https://www.consystec.com/maine2026/web/funreq.htm?id=384)
 
-## Deployment Guidance
-
-When planning a deployment in Sustainable Transport:
-
-1. **Identify the service packages** that apply to your use case from the list above.
-2. **Review the elements** — these are the systems and devices you will need. Check their Status (Existing vs Planned) to understand what is already deployed.
-3. **Look up the functional requirements** — these define WHAT each element must do. They map directly to RFP/RFI specification sections.
-4. **Check the interfaces** — these define HOW elements communicate. Each interface specifies data flows and applicable standards.
-5. **Reference the standards** — for each interface, the architecture specifies which standards (NTCIP, TMDD, SAE, IEEE, etc.) should be used.
-
-For a DOT preparing an RFI/RFP, the functional requirements are your specification backbone. Each requirement can be traced from service package → element → functional requirement → interface → standard.

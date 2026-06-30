@@ -7,17 +7,21 @@ V2V safety, automated driving, platooning, collision avoidance. (also: vehicle t
 ### Vehicle Safety & Automation
 *V2V, automated vehicles, platooning, collision avoidance, autonomous vehicle safety, basic safety, situational awareness, special vehicle alert, stop sign gap assist, road weather alert, restricted lane warnings, cooperative adaptive cruise control, METR, VRU clustering (also: vehicle to vehicle, V2X; also: self-driving, automated driving, ADS, ADAS, advanced driver assistance; also: winter maintenance, anti-icing, de-icing, snow removal, weather responsive management)*
 
-- [Service Package mpSH3_VS07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS07-01(MaineDOT))
-- [Service Package mpSH5_VS07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS07-01(MaineDOT))
-- [Service Package mpSH3_VS08-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS08-01(MaineDOT))
-- [Service Package mpSH5_VS08-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS08-01(MaineDOT))
-- [Service Package mpSH83_VS08-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_VS08-01(MaineDOT))
-- [Service Package mpSH3_VS09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS09-01(MaineDOT))
-- [Service Package mpSH5_VS09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS09-01(MaineDOT))
-- [Service Package mpSH1_VS12-01(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_VS12-01(Co-Mun))
-- [Service Package mpSH3_VS12-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS12-02(MaineDOT))
-- [Service Package mpSH5_VS12-01(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS12-01(Co-Mun))
-- [Service Package mpSH5_VS12-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS12-02(MaineDOT))
+- [mpSH3_VS07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS07-01(MaineDOT))
+- [mpSH5_VS07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS07-01(MaineDOT))
+  - *Implements:* [Roadway Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=33), [TIC Data Collection](https://www.consystec.com/maine2026/web/funreq.htm?id=95), [TIC Road Weather Advisories and Warnings](https://www.consystec.com/maine2026/web/funreq.htm?id=32), [TMC Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=36), [TMC Road Weather Advisories and Warnings](https://www.consystec.com/maine2026/web/funreq.htm?id=428), [Vehicle Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=30), [Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=23)
+- [mpSH3_VS08-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS08-01(MaineDOT))
+- [mpSH5_VS08-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS08-01(MaineDOT))
+- [mpSH83_VS08-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_VS08-01(MaineDOT))
+  - *Implements:* [TIC Situation Data Management](https://www.consystec.com/maine2026/web/funreq.htm?id=172), [TMC Basic Surveillance](https://www.consystec.com/maine2026/web/funreq.htm?id=14), [TMC Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=36), [TMC Roadway Warning](https://www.consystec.com/maine2026/web/funreq.htm?id=108), [Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=39), [Vehicle Environmental Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=30), [Vehicle Situation Data Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=179), [Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=23)
+- [mpSH3_VS09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS09-01(MaineDOT))
+- [mpSH5_VS09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS09-01(MaineDOT))
+  - *Implements:* [TMC Speed Warning](https://www.consystec.com/maine2026/web/funreq.htm?id=40), [Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=39), [Vehicle Speed Management Assist](https://www.consystec.com/maine2026/web/funreq.htm?id=4), [Vehicle Traveler Information Reception](https://www.consystec.com/maine2026/web/funreq.htm?id=23)
+- [mpSH1_VS12-01(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_VS12-01(Co-Mun))
+- [mpSH3_VS12-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS12-02(MaineDOT))
+- [mpSH5_VS12-01(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS12-01(Co-Mun))
+- [mpSH5_VS12-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS12-02(MaineDOT))
+  - *Implements:* [Personal Pedestrian Safety](https://www.consystec.com/maine2026/web/funreq.htm?id=66), [RSE Intersection Safety](https://www.consystec.com/maine2026/web/funreq.htm?id=57), [Roadway Mixed Use Crossing Safety](https://www.consystec.com/maine2026/web/funreq.htm?id=43), [TMC Intersection Safety](https://www.consystec.com/maine2026/web/funreq.htm?id=71), [Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=39), [Vehicle Control Automation](https://www.consystec.com/maine2026/web/funreq.htm?id=404), [Vehicle Intersection Warning](https://www.consystec.com/maine2026/web/funreq.htm?id=1)
 
 ## Key Elements (13 total)
 
@@ -39,22 +43,11 @@ V2V safety, automated driving, platooning, collision avoidance. (also: vehicle t
 
 ## Related Functional Requirements (7 found)
 
-- [Functional Requirements: Vehicle Intersection Warning](https://www.consystec.com/maine2026/web/funreq.htm?id=1)
+- [Functional Requirements: Vehicle Intersection Warning](https://www.consystec.com/maine2026/web/funreq.htm?id=1) — implemented by VS12
 - [Functional Requirements: Transit Center Paratransit Operations](https://www.consystec.com/maine2026/web/funreq.htm?id=165)
 - [Functional Requirements: CV On-Board Trip Monitoring](https://www.consystec.com/maine2026/web/funreq.htm?id=195)
-- [Functional Requirements: Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=39)
+- [Functional Requirements: Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=39) — implemented by VS08, VS09, VS12
 - [Functional Requirements: Transit Center Fixed-Route Operations](https://www.consystec.com/maine2026/web/funreq.htm?id=390)
-- [Functional Requirements: Personal Pedestrian Safety](https://www.consystec.com/maine2026/web/funreq.htm?id=66)
-- [Functional Requirements: Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=_el252)
+- [Functional Requirements: Personal Pedestrian Safety](https://www.consystec.com/maine2026/web/funreq.htm?id=66) — implemented by VS12
+- [Functional Requirements: Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=_el252) — implemented by VS08, VS09, VS12
 
-## Deployment Guidance
-
-When planning a deployment in Vehicle Safety:
-
-1. **Identify the service packages** that apply to your use case from the list above.
-2. **Review the elements** — these are the systems and devices you will need. Check their Status (Existing vs Planned) to understand what is already deployed.
-3. **Look up the functional requirements** — these define WHAT each element must do. They map directly to RFP/RFI specification sections.
-4. **Check the interfaces** — these define HOW elements communicate. Each interface specifies data flows and applicable standards.
-5. **Reference the standards** — for each interface, the architecture specifies which standards (NTCIP, TMDD, SAE, IEEE, etc.) should be used.
-
-For a DOT preparing an RFI/RFP, the functional requirements are your specification backbone. Each requirement can be traced from service package → element → functional requirement → interface → standard.

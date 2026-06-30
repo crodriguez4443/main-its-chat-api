@@ -11,6 +11,7 @@ import csv
 import io
 import json
 import os
+import re
 from typing import Any, List, Optional, Dict
 import markdown
 from enum import Enum
@@ -193,10 +194,42 @@ def load_content_data():
 # per role-detail tier (wiki/technical, wiki/planning, wiki/strategic). Each is
 # loaded once at startup into wiki_variants; a request picks one by a pure dict
 # lookup (variant_for_role), adding zero per-query latency.
-wiki_variants = {}                 # variant name -> concatenated markdown blob
+wiki_variants = {}                 # variant name -> concatenated markdown blob (full, for fallback)
+wiki_pages = {}                    # variant name -> {relpath -> page markdown} (for page-level routing)
 DEFAULT_VARIANT = "technical"      # richest tier; fallback when a role/variant is missing
 WIKI_VARIANTS = ("technical", "planning", "strategic")
 WIKI_DIR = os.path.join(os.path.dirname(__file__), 'wiki', 'wiki')
+
+# --- Page-level wiki routing (see select_wiki_context) ---------------------
+# The whole variant blob (~55-95K tokens) used to be sent on EVERY request even
+# though a typical question touches one or two service areas. We now route the
+# query to the relevant service-area page(s) and send only those, plus a small
+# always-on core. Citation safety is untouched: page contents (and their
+# verbatim URLs) are unchanged — we only choose WHICH pages to include. When the
+# match is not confident, we fall back to the full blob, so recall is never
+# worse than the previous wiki-first behavior.
+WIKI_CORE_PAGES = ("index.md", "overview.md")  # always included: the "map" + deployment guidance
+WIKI_MAX_AREAS = 5            # cap on service-area pages sent for a focused query
+WIKI_BROAD_AREA_LIMIT = 6     # if more areas STRONGLY match, treat as broad -> send full blob
+WIKI_STOPWORDS = {
+    "the", "and", "for", "are", "with", "what", "which", "how", "does", "this",
+    "that", "from", "you", "your", "can", "will", "would", "should", "have",
+    "has", "was", "were", "all", "any", "into", "out", "about", "they", "them",
+    "their", "there", "here", "more", "most", "some", "other", "than", "then",
+    "when", "where", "who", "whom", "why", "use", "used", "using", "need", "needs",
+    "want", "list", "show", "tell", "give", "please", "between", "within",
+    "service", "services", "package", "packages", "architecture", "system",
+    "systems", "information", "data", "maine", "its",
+}
+# Cross-cutting pages pulled in only when the query clearly calls for them.
+WIKI_STAKEHOLDER_TRIGGERS = {
+    "stakeholder", "stakeholders", "agency", "agencies", "operator", "operators",
+    "owner", "owners", "dot", "mpo", "municipal", "county", "authority",
+}
+WIKI_STANDARDS_TRIGGERS = {
+    "standard", "standards", "ntcip", "tmdd", "sae", "ieee", "iso", "protocol",
+    "protocols", "specification", "specifications", "j2735", "bundle", "bundles",
+}
 
 def load_wiki_content():
     """Load each pre-built wiki variant into wiki_variants (variant -> blob).
@@ -205,13 +238,15 @@ def load_wiki_content():
     wiki/ tree, which would merge every tier into one blob). Variants share the
     same page layout; only their detail depth differs (interfaces/standards).
     """
-    global wiki_variants
+    global wiki_variants, wiki_pages
     wiki_variants = {}
+    wiki_pages = {}
     for variant in WIKI_VARIANTS:
         vdir = os.path.join(WIKI_DIR, variant)
         if not os.path.isdir(vdir):
             continue
         parts = []
+        pages = {}
         try:
             for root, _dirs, files in os.walk(vdir):
                 for fname in sorted(files):
@@ -219,16 +254,79 @@ def load_wiki_content():
                         path = os.path.join(root, fname)
                         rel = os.path.relpath(path, vdir).replace('\\', '/')
                         with open(path, 'r', encoding='utf-8') as f:
-                            parts.append(f"=== WIKI PAGE: {rel} ===\n{f.read()}")
+                            content = f.read()
+                        block = f"=== WIKI PAGE: {rel} ===\n{content}"
+                        parts.append(block)
+                        pages[rel] = block
         except Exception as e:
             print(f"Error loading wiki variant '{variant}' from {vdir}: {e}")
             continue
         blob = "\n\n".join(parts)
         wiki_variants[variant] = blob
+        wiki_pages[variant] = pages
         print(f"Loaded wiki variant '{variant}': {len(parts)} pages, "
               f"{len(blob):,} chars (~{len(blob)//4:,} tokens)")
     if not wiki_variants:
         print(f"WARNING: no wiki variants found under {WIKI_DIR}")
+
+
+def select_wiki_context(query: str, variant: str) -> str:
+    """Return only the wiki pages relevant to `query` for the given variant.
+
+    Routing is page-level over the ~12 service-area pages: we score each page by
+    how many distinctive query terms appear in its header (title + synonym-
+    expanded description, which build_wiki already writes — so the routing index
+    stays in sync with the wiki automatically). The small core pages (index +
+    overview) are always included as the architecture "map".
+
+    Safe-by-default: if nothing matches confidently, or the query is broad enough
+    to hit many areas, we return the FULL variant blob — identical to the old
+    wiki-first behavior. Page contents and their verbatim URLs are never altered,
+    so citation safety is unaffected; we only choose which pages to send.
+    """
+    pages = wiki_pages.get(variant)
+    full = wiki_variants.get(variant) or wiki_variants.get(DEFAULT_VARIANT, "")
+    if not pages:
+        return full
+
+    terms = {w for w in re.findall(r"[a-z0-9]{3,}", (query or "").lower())
+             if w not in WIKI_STOPWORDS}
+    if not terms:
+        return full  # nothing to route on (e.g. empty/very short query)
+
+    scored = []  # (score, relpath) for matching service-area pages
+    for rel, block in pages.items():
+        if not rel.startswith("service-areas/"):
+            continue
+        header = block[:700].lower()  # title + description + synonyms
+        score = sum(1 for t in terms if t in header)
+        if score:
+            scored.append((score, rel))
+
+    # "Confident" routing requires at least one STRONG match (>=2 distinctive
+    # query terms in a page header). Common single words (signal, weather,
+    # vehicle) graze many headers, so single-term matches alone are not enough to
+    # trust the route — without a strong match we send the full blob. Strong
+    # matches are selected first; weak (single-term) matches only fill leftover
+    # slots, which keeps a relevant secondary area (e.g. Public Transportation on
+    # a "transit signal priority" query) without letting noise dominate.
+    strong = sorted((x for x in scored if x[0] >= 2), reverse=True)
+    weak = sorted((x for x in scored if x[0] == 1), reverse=True)
+    if not strong or len(strong) > WIKI_BROAD_AREA_LIMIT:
+        return full  # no confident match, or a broad cross-cutting query
+
+    ordered = [r for _s, r in strong] + [r for _s, r in weak]
+    selected = ordered[:WIKI_MAX_AREAS]
+
+    # Pull in cross-cutting pages only when the query clearly asks for them.
+    extras = []
+    if "stakeholders.md" in pages and (terms & WIKI_STAKEHOLDER_TRIGGERS):
+        extras.append("stakeholders.md")
+    if "standards.md" in pages and (terms & WIKI_STANDARDS_TRIGGERS):
+        extras.append("standards.md")
+
+    order = [p for p in WIKI_CORE_PAGES if p in pages] + selected + extras
+    return "\n\n".join(pages[r] for r in order)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -1428,14 +1526,24 @@ async def chat(request: ChatRequest):
         # context = "\n\n---\n\n".join(context_parts)
 
         # ====================================================================
-        # WIKI-FIRST: Use the pre-synthesized, role-tiered wiki as context.
-        # Variant selection is a pure dict lookup (no network/LLM/file I/O), so
-        # it adds zero latency. Falls back to the default (technical) variant,
-        # then to "" so the app still runs if the wiki is missing.
+        # WIKI-FIRST (page-level routing): Use the pre-synthesized, role-tiered
+        # wiki as context, but send only the service-area page(s) relevant to the
+        # query instead of the whole variant blob. Variant selection is a pure
+        # dict lookup; routing is a cheap in-memory keyword scan (no network/LLM/
+        # file I/O), so per-query latency stays ~zero. select_wiki_context falls
+        # back to the full variant blob when the match is not confident, so recall
+        # is never worse than sending everything. Falls back to the default
+        # (technical) variant, then to "" so the app still runs if the wiki is
+        # missing.
         # ====================================================================
         variant = variant_for_role(user_role)
-        context = wiki_variants.get(variant) or wiki_variants.get(DEFAULT_VARIANT, "")
-        print(f"Wiki variant: {variant} ({len(context):,} chars)")
+        context = select_wiki_context(actual_query, variant)
+        if not context:  # variant present but routed to nothing should not happen; belt-and-suspenders
+            context = wiki_variants.get(variant) or wiki_variants.get(DEFAULT_VARIANT, "")
+        full_blob = wiki_variants.get(variant, "")
+        pct = (100 * len(context) / len(full_blob)) if full_blob else 100
+        print(f"Wiki variant: {variant} — sent {len(context):,} chars "
+              f"(~{len(context)//4:,} tok, {pct:.0f}% of full {len(full_blob):,})")
         relevant_content = [{'url': 'wiki', 'title': 'wiki'}]  # placeholder for downstream len()/logging
 
         # Step 6: Generate role-specific system prompt
