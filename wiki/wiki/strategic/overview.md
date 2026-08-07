@@ -1,7 +1,7 @@
 # MAINEDOT — Overview
 
 ## Scope
-This architecture contains **111 elements**, **37 stakeholders**, and **80 unique service package types** (564 total instances including stakeholder-specific variants).
+This architecture contains **111 elements**, **37 stakeholders**, and **80 unique service package types** (187 total instances including stakeholder-specific variants).
 
 Additional content: 261 functional requirements, 339 interfaces, 298 data flows, 10 planning documents, 54 standards bundles, 245 solutions/standards, 98 projects.
 
@@ -68,15 +68,3 @@ Existing: 73, Planned: 37, : 1
 - **RFP/RFI questions**: The service area pages list which functional requirements, interfaces, and standards apply. These map directly to RFP specification sections.
 
 Base URL: https://www.consystec.com/maine2026/web
-
-## Deployment Guidance (applies to every service area)
-
-When planning a deployment in any service area:
-
-1. **Identify the service packages** that apply to your use case from that service area's page.
-2. **Review the elements** — these are the systems and devices you will need. Check their Status (Existing vs Planned) to understand what is already deployed.
-3. **Look up the functional requirements** — these define WHAT each element must do. They map directly to RFP/RFI specification sections.
-4. **Check the interfaces** — these define HOW elements communicate. Each interface specifies data flows and applicable standards.
-5. **Reference the standards** — for each interface, the architecture specifies which standards (NTCIP, TMDD, SAE, IEEE, etc.) should be used.
-
-For a DOT preparing an RFI/RFP, the functional requirements are your specification backbone. Each requirement can be traced from service package → element → functional requirement → interface → standard.

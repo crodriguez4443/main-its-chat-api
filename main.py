@@ -347,7 +347,12 @@ app = FastAPI(lifespan=lifespan)
 # Configure CORS for local development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://www.consystec.com", "https://consystec.com"],
+    allow_origins=[
+        "https://www.consystec.com",
+        "https://consystec.com",
+        "http://www.consystec.com",
+        "http://consystec.com",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
