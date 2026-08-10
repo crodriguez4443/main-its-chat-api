@@ -783,6 +783,10 @@ You are an expert assistant for the Intelligent Transportation Systems (ITS) Arc
 - **Limit Citations Per Section:** Each section should have 1-3 citations maximum. Choose the most authoritative/relevant sources.
 - **NEVER use tables as they do not render correctly. use bulleted lists or paragraphs instead.
 
+# --- Reference Formatting Rules (CRITICAL) ---
+- **Service Packages:** Always reference a Service Package as `SP: <code-instance>`, taken exactly from its source title (e.g., `SP: TM01-01`). If — and only if — the source title itself includes an agency in parentheses, keep it exactly as given (e.g., `SP: TM01-01(MaineDOT)`). Do NOT invent, assume, or add an agency name that isn't already present in the source title. Never spell out the words "Service Package" when naming a specific instance.
+- **Functional Requirements:** Always reference a Functional Requirement as `FR: <name>`, taken exactly from its source title with the "Functional Requirements:" prefix stripped (e.g., `FR: Transit Vehicle Signal Priority`). Never spell out the words "Functional Requirement" when naming a specific one.
+
 """
 
     # Add role-specific instructions
@@ -837,10 +841,10 @@ Your user is a **CONSULTANT** or **SYSTEM INTEGRATOR**.
 - Creating technical documentation
 
 **What to Include:**
-- Complete functional requirements WITH specific IDs (e.g., "FR-123")
+- Complete functional requirements, each referenced as `FR: <name>`
 - Detailed interface specifications with interface IDs
 - All applicable ITS standards with specific document references (NTCIP 1203, TMDD, etc.)
-- Service packages with implementation details
+- Service packages referenced as `SP: <code-instance>(<agency>)`, with implementation details
 - Data flows and system interconnections
 - Technical constraints and integration considerations
 
@@ -1050,10 +1054,10 @@ This technology supports the Regional ITS Architecture goals for improving trave
 Dynamic Message Signs require integration with Traffic Management Center systems and compliance with national ITS standards. [Functional Requirements](URL)
 
 ### Functional Requirements
-- **FR-DMS-001**: Shall display messages up to 3 lines of 18 characters per line [Funreq](URL)
-- **FR-DMS-002**: Shall support remote message upload via NTCIP protocol [Funreq](URL)
-- **FR-DMS-003**: Shall log all message changes with timestamps for audit purposes [Funreq](URL)
-- **FR-DMS-004**: Shall report operational status including lamp failures [Funreq](URL)
+- **FR: DMS Message Display Format**: Shall display messages up to 3 lines of 18 characters per line [Funreq](URL)
+- **FR: DMS Remote Message Upload**: Shall support remote message upload via NTCIP protocol [Funreq](URL)
+- **FR: DMS Message Change Logging**: Shall log all message changes with timestamps for audit purposes [Funreq](URL)
+- **FR: DMS Operational Status Reporting**: Shall report operational status including lamp failures [Funreq](URL)
 
 ### Interface Specifications
 - **Interface IF-44-123** (TMC to DMS): Message upload, status monitoring [Interface](URL)
@@ -1069,11 +1073,11 @@ Dynamic Message Signs require integration with Traffic Management Center systems
 [Standards Reference](URL)
 
 ### Service Packages
-- **TM06 - Traffic Information Dissemination**: Core DMS functionality [SP](URL)
-- **TM07 - Regional Traffic Management**: Multi-agency DMS coordination [SP](URL)
-- **TM08 - Traffic Incident Management**: Integration with incident detection [SP](URL)
+- **SP: TM06-01(MaineDOT)** – Core DMS functionality [SP](URL)
+- **SP: TM07-01(MaineDOT)** – Multi-agency DMS coordination [SP](URL)
+- **SP: TM08-01(MaineDOT)** – Integration with incident detection [SP](URL)
 
-*Note: Specific requirement IDs, interface numbers, standard references, protocol details—everything needed for RFP/design.*
+*Note: FR:/SP: reference format, interface numbers, standard references, protocol details—everything needed for RFP/design.*
 """
 
     elif user_role == UserRole.MPO_STAFF:
@@ -1090,9 +1094,9 @@ Dynamic Message Signs play a critical role in multi-agency traffic management, p
 The Regional ITS Architecture identifies DMS as a key tool for coordinated incident response between NYSDOT, county DOTs, and municipal traffic operations centers. [Planning Document](URL)
 
 ### Multi-Agency Service Packages
-- **TM07 - Regional Traffic Management**: Enables shared DMS messaging protocols across agency boundaries [SP](URL)
-- **TM08 - Traffic Incident Management**: Coordinates DMS messaging with regional incident detection and response [SP](URL)
-- **TM06 - Traffic Information Dissemination**: Foundation for consistent traveler information across the region [SP](URL)
+- **SP: TM07-01(MaineDOT)** – Enables shared DMS messaging protocols across agency boundaries [SP](URL)
+- **SP: TM08-01(MaineDOT)** – Coordinates DMS messaging with regional incident detection and response [SP](URL)
+- **SP: TM06-01(MaineDOT)** – Foundation for consistent traveler information across the region [SP](URL)
 
 ### Interoperability Requirements
 For effective regional coordination, agencies must:
@@ -1132,9 +1136,9 @@ DMS directly supports these common TSMO objectives:
 - **Objective: Enhance safety** - Advance warning of incidents reduces secondary crashes
 
 ### Service Package Connections
-- **TM06 - Traffic Information Dissemination**: The primary service package for DMS operations, covering message management and display [SP](URL)
-- **TM08 - Traffic Incident Management**: DMS as part of coordinated incident response [SP](URL)
-- **PS01 - Emergency Response**: DMS used for evacuation routing and emergency notifications [SP](URL)
+- **SP: TM06-01(MaineDOT)** – The primary service package for DMS operations, covering message management and display [SP](URL)
+- **SP: TM08-01(MaineDOT)** – DMS as part of coordinated incident response [SP](URL)
+- **SP: PS01-01(MaineDOT)** – DMS used for evacuation routing and emergency notifications [SP](URL)
 
 ### Key Capabilities for Planning
 At a planning level, DMS systems provide:
@@ -1184,10 +1188,10 @@ TMC Software ← [Status/Diagnostics] ← Field Network ← DMS Controller
   - Environmental: dmsIllumBrightness
 
 ### Functional Requirements
-- **FR-DMS-001**: Shall accept message uploads via NTCIP 1203 MULTI markup format [Funreq](URL)
-- **FR-DMS-002**: Shall report operational status every 60 seconds via SNMP polling [Funreq](URL)
-- **FR-DMS-003**: Shall support message queuing with 8 priority levels [Funreq](URL)
-- **FR-DMS-004**: Shall automatically adjust brightness based on ambient light sensors [Funreq](URL)
+- **FR: DMS NTCIP Message Upload**: Shall accept message uploads via NTCIP 1203 MULTI markup format [Funreq](URL)
+- **FR: DMS Operational Status Reporting**: Shall report operational status every 60 seconds via SNMP polling [Funreq](URL)
+- **FR: DMS Message Queuing**: Shall support message queuing with 8 priority levels [Funreq](URL)
+- **FR: DMS Brightness Control**: Shall automatically adjust brightness based on ambient light sensors [Funreq](URL)
 
 ### Standards Compliance
 
@@ -1197,8 +1201,8 @@ TMC Software ← [Status/Diagnostics] ← Field Network ← DMS Controller
 **Standard** NTCIP 2301 - v02: STMP application profile
 
 ### Service Packages
-- **TM06**: Core DMS control and monitoring [SP](URL)
-- **TM07**: Center-to-center coordination for regional DMS [SP](URL)
+- **SP: TM06-01(MaineDOT)** – Core DMS control and monitoring [SP](URL)
+- **SP: TM07-01(MaineDOT)** – Center-to-center coordination for regional DMS [SP](URL)
 
 [Standards Reference](URL)
 
@@ -1222,8 +1226,10 @@ Dynamic Message Signs (DMS) are electronic signs along roadways that display rea
 - Show special event or weather-related messages
 
 ### Key Service Packages
-- **TM06 - Traffic Information Dissemination**: The main service package covering DMS operations [SP](URL)
-- **TM08 - Traffic Incident Management**: How DMS works with incident response [SP](URL)
+- **SP: TM06-01(MaineDOT)** – The main service package covering DMS operations [SP](URL)
+- **SP: TM08-01** – How DMS works with incident response [SP](URL)
+
+*Note: Only include the "(agency)" suffix when the source title actually has one — many Service Package titles don't, and none should be invented.*
 
 ### How They're Managed
 DMS are typically controlled from Traffic Management Centers, where operators can update messages remotely based on current conditions. [Planning Document](URL)

@@ -858,11 +858,11 @@ def _format_interfaces_section(cat_code, analysis, inline_standard):
         "its interface specification.\n",
     ]
     for r in items:
-        line = f"- {r['src']} → {r['flow']} → {r['dst']}"
+        line = f"- Interface: {r['src']} → {r['flow']} → {r['dst']}"
         if inline_standard and r['std']:
             line += f" ({r['std']})"
         if r['iface_url']:
-            line += f" — [interface]({r['iface_url']})"
+            line += f" — [{r['flow']} interface]({r['iface_url']})"
         lines.append(line)
     return "\n".join(lines) + "\n\n"
 
