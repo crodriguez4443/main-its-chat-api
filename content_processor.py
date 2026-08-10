@@ -21,8 +21,14 @@ def generate_url(file_path, base_url=None):
     # Normalize path separators for comparison
     normalized_path = file_path.replace('\\', '/')
 
+    # Drop stakeholder-scoped duplicates: mpSH<stakeholder-id>_<canonical>.htm is a
+    # per-stakeholder view of a service package that already has a canonical page.
+    # All 564 have a canonical counterpart, so the index keeps one copy only.
+    if re.match(r'^mpSH\d+_', filename):
+        return None
+
     #filter out the following content files
-    remove_patterns =[  
+    remove_patterns =[
         'interfaces.content.htm',
         'inventory.content.htm',
         'inventory.selector.htm',
