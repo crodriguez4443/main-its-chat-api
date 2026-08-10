@@ -33,7 +33,7 @@ def _getenv_list(name: str, default: list[str]) -> list[str]:
 # --- State identity ---------------------------------------------------------
 # Used for UI labels and (optionally) prompt personalization in the future.
 STATE_NAME = os.getenv("STATE_NAME", "Maine")
-DOT_NAME = os.getenv("DOT_NAME", "MAINEDOT")
+DOT_NAME = os.getenv("DOT_NAME", "MaineDOT")
 
 # --- Architecture website URL -----------------------------------------------
 # Citations in responses link back to this site. Every state's ITS
@@ -49,8 +49,8 @@ os.environ["ARCHITECTURE_BASE_URL"] = ARCHITECTURE_BASE_URL
 
 # --- Gemini models ----------------------------------------------------------
 # Override per deployment if cost profile differs.
-GEMINI_FLASH_MODEL = os.getenv("GEMINI_FLASH_MODEL", "gemini-3-flash-preview")
-GEMINI_PRO_MODEL = os.getenv("GEMINI_PRO_MODEL", "gemini-3.1-pro-preview")
+GEMINI_FLASH_MODEL = os.getenv("GEMINI_FLASH_MODEL", "gemini-3.6-flash")
+GEMINI_PRO_MODEL = os.getenv("GEMINI_PRO_MODEL", "gemini-3.6-flash")
 # Fallback used when GEMINI_PRO_MODEL returns 503 after retries.
 GEMINI_PRO_FALLBACK_MODEL = os.getenv("GEMINI_PRO_FALLBACK_MODEL", "gemini-2.5-pro")
 
