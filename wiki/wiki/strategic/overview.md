@@ -1,12 +1,12 @@
-# MAINEDOT — Overview
+# MaineDOT — Overview
 
 ## Scope
-This architecture contains **111 elements**, **37 stakeholders**, and **80 unique service package types** (187 total instances including stakeholder-specific variants).
+This architecture contains **108 elements**, **38 stakeholders**, and **80 unique service package types** (548 total instances including stakeholder-specific variants).
 
-Additional content: 261 functional requirements, 339 interfaces, 298 data flows, 10 planning documents, 54 standards bundles, 245 solutions/standards, 98 projects.
+Additional content: 285 functional requirements, 324 interfaces, 295 data flows, 10 planning documents, 54 standards bundles, 245 solutions/standards, 68 projects.
 
 ## Element Status Distribution
-Existing: 73, Planned: 37, : 1
+Existing: 65, Planned: 42, : 1
 
 ## Service Area Categories Present
 - **Commercial Vehicle Operations** (CVO): 10 service package types — Freight credentialing, electronic screening, HAZMAT tracking, oversize/overweight permits.
@@ -18,8 +18,8 @@ Existing: 73, Planned: 37, : 1
 - **Sustainable Transport** (ST): 2 service package types — Congestion pricing, transit incentives, emissions management.
 - **Support** (SU): 1 service package types — Device management, mapping, location services, communications infrastructure.
 - **Traveler Information** (TI): 4 service package types — 511 services, third-party apps, multimodal alerts, personalized traveler info.
-- **Traffic Management** (TM): 21 service package types — Signal control, freeway management, traffic surveillance, incident detection, DMS, connected vehicle applications.
-- **Vehicle Safety** (VS): 4 service package types — V2V safety, automated driving, platooning, collision avoidance.
+- **Traffic Management** (TM): 20 service package types — Signal control, freeway management, traffic surveillance, incident detection, DMS, connected vehicle applications.
+- **Vehicle Safety** (VS): 5 service package types — V2V safety, automated driving, platooning, collision avoidance.
 - **Weather** (WX): 3 service package types — Road weather information systems, mobile weather observations.
 
 ## Key Agencies / Stakeholders
@@ -29,14 +29,14 @@ Existing: 73, Planned: 37, : 1
 - [Amtrak](https://www.consystec.com/maine2026/web/stakeholder.htm?id=111)
 - [Archive Data Users](https://www.consystec.com/maine2026/web/stakeholder.htm?id=20)
 - [Canadian Border Services Agency](https://www.consystec.com/maine2026/web/stakeholder.htm?id=77)
-- [County/Municipal Public Safety Agencies](https://www.consystec.com/maine2026/web/stakeholder.htm?id=92)
-- [County/Municipal Traffic and Maintenance Agencies](https://www.consystec.com/maine2026/web/stakeholder.htm?id=1)
 - [Electric Vehicle Charging Organizations](https://www.consystec.com/maine2026/web/stakeholder.htm?id=109)
 - [Federal Motor Carrier Safety Administration](https://www.consystec.com/maine2026/web/stakeholder.htm?id=42)
 - [Financial Institution](https://www.consystec.com/maine2026/web/stakeholder.htm?id=26)
 - [IFTA](https://www.consystec.com/maine2026/web/stakeholder.htm?id=51)
 - [Local Ferry Operators](https://www.consystec.com/maine2026/web/stakeholder.htm?id=114)
 - [Local Transit Agencies Is a stakeholder group. Members include: - Acadia National Park/Island Explorer](https://www.consystec.com/maine2026/web/stakeholder.htm?id=21)
+- [Local/Municipal Public Safety Agencies](https://www.consystec.com/maine2026/web/stakeholder.htm?id=92)
+- [MPO/Municipal Traffic and Maintenance Agencies](https://www.consystec.com/maine2026/web/stakeholder.htm?id=1)
 - [Maine Bureau of Motor Vehicles](https://www.consystec.com/maine2026/web/stakeholder.htm?id=75)
 - [Maine Department of Transportation](https://www.consystec.com/maine2026/web/stakeholder.htm?id=3)
 - [Maine Emergency Management Agency](https://www.consystec.com/maine2026/web/stakeholder.htm?id=64)
@@ -60,6 +60,7 @@ Existing: 73, Planned: 37, : 1
 - [Regional Event Coordinators](https://www.consystec.com/maine2026/web/stakeholder.htm?id=4)
 - [US Department of Homeland Security](https://www.consystec.com/maine2026/web/stakeholder.htm?id=72)
 - [US Government Agencies](https://www.consystec.com/maine2026/web/stakeholder.htm?id=108)
+- [VTrans - Vermont Agency of Transportation](https://www.consystec.com/maine2026/web/stakeholder.htm?id=115)
 
 ## How to Use This Wiki
 - **Conceptual questions** ("What does traffic management involve?"): Read the relevant service area page.

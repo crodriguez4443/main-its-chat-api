@@ -36,7 +36,9 @@ from pathlib import Path
 # Path defaults
 # ──────────────────────────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).resolve().parent
-CONTENT_DIR_DEFAULT = SCRIPT_DIR.parent.parent / "content"
+CONTENT_DIR_DEFAULT = (
+    SCRIPT_DIR.parent.parent.parent / "maine-aiAssistUpgrade" / "web" / "content"
+)
 WIKI_DIR_DEFAULT = SCRIPT_DIR / "wiki" / "technical"
 BUILD_WIKI_DEFAULT = SCRIPT_DIR / "build_wiki.py"
 REPORT_PATH_DEFAULT = SCRIPT_DIR / "wiki_verify_report.md"
@@ -227,6 +229,9 @@ def check_stakeholders(content_dir: Path, wiki_dir: Path) -> dict:
 
 def check_standards(content_dir: Path, wiki_dir: Path) -> dict:
     """Compare solution/bundle pages in content dir vs wiki/technical/standards.md."""
+    if not content_dir.is_dir():
+        return {"error": f"Content directory not found: {content_dir}"}
+
     standards_md = wiki_dir / "standards.md"
     if not standards_md.exists():
         return {"error": f"Not found: {standards_md}"}
@@ -239,10 +244,14 @@ def check_standards(content_dir: Path, wiki_dir: Path) -> dict:
     content_bundle_ids = _content_htm_ids(content_dir, "bundle")
 
     triples_csv = content_dir / "triplesWithStandards.csv"
-    if not triples_csv.exists():
-        triples_csv = content_dir / "triplesWithStandards.csv"
+    triples_js = content_dir / "triplesWithStandards.js"
     active_solution_ids: set = set()
-    if triples_csv.exists():
+    if triples_js.exists():
+        for row in _load_js_array(triples_js):
+            sid = str(row.get("SolutionID") or "").strip()
+            if sid:
+                active_solution_ids.add(sid)
+    elif triples_csv.exists():
         csv.field_size_limit(10 ** 7)
         with open(triples_csv, encoding="utf-8", newline="") as f:
             for row in csv.DictReader(f):

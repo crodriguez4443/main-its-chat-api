@@ -1,4 +1,4 @@
-# MAINEDOT — Wiki Index
+# MaineDOT — Wiki Index
 
 > This index is read by the LLM before answering any query.
 > Each linked page contains pre-synthesized architectural knowledge.
@@ -17,12 +17,12 @@
 - [Sustainable Transport (ST)](service-areas/st-sustainable-transport.md) — ST04, ST05
 - [Support (SU)](service-areas/su-support.md) — SU03
 - [Traveler Information (TI)](service-areas/ti-traveler-information.md) — TI01, TI02, TI03, TI07
-- [Traffic Management (TM)](service-areas/tm-traffic-management.md) — TM01, TM02, TM03, TM04, TM05, TM06, TM07, TM08, TM09, TM10, TM12, TM13, TM14, TM15, TM17, TM18, TM19, TM20, TM22, TM23, TM25
-- [Vehicle Safety (VS)](service-areas/vs-vehicle-safety.md) — VS07, VS08, VS09, VS12
+- [Traffic Management (TM)](service-areas/tm-traffic-management.md) — TM01, TM02, TM03, TM04, TM05, TM06, TM07, TM08, TM09, TM10, TM12, TM14, TM15, TM17, TM18, TM19, TM20, TM22, TM23, TM25
+- [Vehicle Safety (VS)](service-areas/vs-vehicle-safety.md) — VS07, VS08, VS09, VS12, VS13
 - [Weather (WX)](service-areas/wx-weather.md) — WX01, WX02, WX03
 
 ## Cross-Cutting
-- [stakeholders.md](stakeholders.md) — 37 stakeholders by type: DOTs, MPOs, transit, toll authorities, local, private
+- [stakeholders.md](stakeholders.md) — 38 stakeholders by type: DOTs, MPOs, transit, toll authorities, local, private
 
 ## How the LLM Should Use This Wiki
 1. Read this index to find the relevant page(s)

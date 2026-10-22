@@ -1,10 +1,11 @@
-# Stakeholders (37 total)
+# Stakeholders (38 total)
 
 ## State DOTs (2)
 - [Maine Department of Transportation](https://www.consystec.com/maine2026/web/stakeholder.htm?id=3)
 - [NHDOT](https://www.consystec.com/maine2026/web/stakeholder.htm?id=39)
 
-## MPOs & Planning Agencies (1)
+## MPOs & Planning Agencies (2)
+- [MPO/Municipal Traffic and Maintenance Agencies](https://www.consystec.com/maine2026/web/stakeholder.htm?id=1)
 - [Metropolitan Planning Organizations](https://www.consystec.com/maine2026/web/stakeholder.htm?id=74)
 
 ## Transit Agencies (3)
@@ -15,10 +16,9 @@
 ## Toll & Bridge Authorities (1)
 - [Maine Turnpike Authority](https://www.consystec.com/maine2026/web/stakeholder.htm?id=112)
 
-## Local / Municipal (3)
-- [County/Municipal Public Safety Agencies](https://www.consystec.com/maine2026/web/stakeholder.htm?id=92)
-- [County/Municipal Traffic and Maintenance Agencies](https://www.consystec.com/maine2026/web/stakeholder.htm?id=1)
+## Local / Municipal (2)
 - [Local Ferry Operators](https://www.consystec.com/maine2026/web/stakeholder.htm?id=114)
+- [Local/Municipal Public Safety Agencies](https://www.consystec.com/maine2026/web/stakeholder.htm?id=92)
 
 ## Federal Agencies (2)
 - [Federal Motor Carrier Safety Administration](https://www.consystec.com/maine2026/web/stakeholder.htm?id=42)
@@ -34,7 +34,7 @@
 - [Private Travelers](https://www.consystec.com/maine2026/web/stakeholder.htm?id=5)
 - [Private Weather Information Provider](https://www.consystec.com/maine2026/web/stakeholder.htm?id=7)
 
-## Other (17)
+## Other (18)
 - [Airport Authorities](https://www.consystec.com/maine2026/web/stakeholder.htm?id=60)
 - [American Association of Motor Vehicle Administrators](https://www.consystec.com/maine2026/web/stakeholder.htm?id=52)
 - [Amtrak](https://www.consystec.com/maine2026/web/stakeholder.htm?id=111)
@@ -52,4 +52,5 @@
 - [Regional Event Coordinators](https://www.consystec.com/maine2026/web/stakeholder.htm?id=4)
 - [US Department of Homeland Security](https://www.consystec.com/maine2026/web/stakeholder.htm?id=72)
 - [US Government Agencies](https://www.consystec.com/maine2026/web/stakeholder.htm?id=108)
+- [VTrans - Vermont Agency of Transportation](https://www.consystec.com/maine2026/web/stakeholder.htm?id=115)
 

@@ -7,11 +7,22 @@ Regional planning data, scenario modeling, emissions monitoring.
 ### Performance Management
 *Planning data, performance dashboards, emissions tracking, loading zone management*
 
+- [Service Package mpSH21_PM01-01(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_PM01-01(Transit))
+- [Service Package mpSH3_PM01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_PM01-02(MaineDOT))
 - [Service Package PM01-01(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/PM01-01(Transit))
+- [Service Package PM01-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/PM01-02(MaineDOT))
+- [Service Package mpSH21_PM02-01(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_PM02-01(Transit))
+- [Service Package mpSH3_PM02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_PM02-02(MaineDOT))
 - [Service Package PM02-01(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/PM02-01(Transit))
+- [Service Package PM02-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/PM02-02(MaineDOT))
+- [Service Package mpSH21_PM03-01(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_PM03-01(Transit))
+- [Service Package mpSH26_PM03-01(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH26_PM03-01(Transit))
+- [Service Package mpSH26_PM03-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH26_PM03-02(MaineDOT))
+- [Service Package mpSH3_PM03-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_PM03-02(MaineDOT))
 - [Service Package PM03-01(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/PM03-01(Transit))
+- [Service Package PM03-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/PM03-02(MaineDOT))
 
-## Key Elements (7 total)
+## Key Elements (12 total)
 
 | Element | Status | Stakeholder |
 |---------|--------|-------------|
@@ -22,17 +33,28 @@ Regional planning data, scenario modeling, emissions monitoring.
 | [Local Transit Payment Device](https://www.consystec.com/maine2026/web/element.htm?id=292) | Planned | Local Transit Agencies |
 | [Local Transit Stations and Shelters](https://www.consystec.com/maine2026/web/element.htm?id=273) | Planned | Local Transit Agencies |
 | [Local Transit Traveler Information Systems](https://www.consystec.com/maine2026/web/element.htm?id=70) | Planned | Local Transit Agencies |
+| [MaineDOT Ferries Operations Centers](https://www.consystec.com/maine2026/web/element.htm?id=297) | Planned | Maine Department of Transportation |
+| [MaineDOT Ferries Payment Device](https://www.consystec.com/maine2026/web/element.htm?id=299) | Planned | Maine Department of Transportation |
+| [MaineDOT Ferries Stations](https://www.consystec.com/maine2026/web/element.htm?id=300) | Planned | Maine Department of Transportation |
+| [MaineDOT Ferries Traveler Information Systems](https://www.consystec.com/maine2026/web/element.htm?id=301) | Planned | Maine Department of Transportation |
+| [MaineDOT Parking Systems](https://www.consystec.com/maine2026/web/element.htm?id=298) | Planned | Maine Department of Transportation |
 
-## Interfaces (6 data flows)
+## Interfaces (12 data flows)
 
 Real information flows between elements in this service area, in the form *Source Element → information flow → Destination Element*. Each links to its interface specification.
 
-- Financial Institution → settlement → Local Transit Operations Centers — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=60-69)
-- Local Transit Operations Centers → parking area transit information_ud → Local Transit Stations and Shelters — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=69-273)
-- Local Transit Operations Centers → parking payment instructions → Local Transit Parking Systems ((None-Data) - Secure Internet (ITS)) — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=69-290)
-- Local Transit Operations Centers → payment request → Financial Institution — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=60-69)
-- Local Transit Parking Systems → parking payment transactions → Local Transit Operations Centers ((None-Data) - Secure Internet (ITS)) — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=69-290)
-- Local Transit Parking Systems → request for payment → Local Transit Payment Device — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=290-292)
+- Interface: Financial Institution → settlement → Local Transit Operations Centers — [settlement interface](https://www.consystec.com/maine2026/web/interface.htm?id=60-69)
+- Interface: Financial Institution → settlement → MaineDOT Ferries Operations Centers — [settlement interface](https://www.consystec.com/maine2026/web/interface.htm?id=60-297)
+- Interface: Local Transit Operations Centers → parking area transit information_ud → Local Transit Stations and Shelters — [parking area transit information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=69-273)
+- Interface: Local Transit Operations Centers → parking payment instructions → Local Transit Parking Systems ((None-Data) - Secure Internet (ITS)) — [parking payment instructions interface](https://www.consystec.com/maine2026/web/interface.htm?id=69-290)
+- Interface: Local Transit Operations Centers → payment request → Financial Institution — [payment request interface](https://www.consystec.com/maine2026/web/interface.htm?id=60-69)
+- Interface: Local Transit Parking Systems → parking payment transactions → Local Transit Operations Centers ((None-Data) - Secure Internet (ITS)) — [parking payment transactions interface](https://www.consystec.com/maine2026/web/interface.htm?id=69-290)
+- Interface: Local Transit Parking Systems → request for payment → Local Transit Payment Device — [request for payment interface](https://www.consystec.com/maine2026/web/interface.htm?id=290-292)
+- Interface: MaineDOT Ferries Operations Centers → parking area transit information_ud → MaineDOT Ferries Stations — [parking area transit information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=297-300)
+- Interface: MaineDOT Ferries Operations Centers → parking payment instructions → MaineDOT Parking Systems ((None-Data) - Secure Internet (ITS)) — [parking payment instructions interface](https://www.consystec.com/maine2026/web/interface.htm?id=297-298)
+- Interface: MaineDOT Ferries Operations Centers → payment request → Financial Institution — [payment request interface](https://www.consystec.com/maine2026/web/interface.htm?id=60-297)
+- Interface: MaineDOT Parking Systems → parking payment transactions → MaineDOT Ferries Operations Centers ((None-Data) - Secure Internet (ITS)) — [parking payment transactions interface](https://www.consystec.com/maine2026/web/interface.htm?id=297-298)
+- Interface: MaineDOT Parking Systems → request for payment → MaineDOT Ferries Payment Device — [request for payment interface](https://www.consystec.com/maine2026/web/interface.htm?id=298-299)
 
 ## Applicable Standards (1)
 

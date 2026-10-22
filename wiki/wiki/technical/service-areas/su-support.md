@@ -7,52 +7,53 @@ Device management, mapping, location services, communications infrastructure.
 ### Support Services
 *Map management, device management, cybersecurity, communications, object registration, device certification, center/field/vehicle/personnel maintenance, remote access, VRU device transition*
 
+- [Service Package mpSH112_SU03-02(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH112_SU03-02(MaineTpk))
+- [Service Package mpSH1_SU03-03(MPO-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_SU03-03(MPO-Mun))
+- [Service Package mpSH21_SU03-04(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH21_SU03-04(Transit))
+- [Service Package mpSH3_SU03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_SU03-01(MaineDOT))
 - [Service Package SU03-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/SU03-01(MaineDOT))
-- [Service Package SU03-02(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/SU03-02(Co-Mun))
 - [Service Package SU03-02(MaineTpk)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/SU03-02(MaineTpk))
-- [Service Package SU03-03(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/SU03-03(Co-Mun))
-- [Service Package SU03-03(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/SU03-03(Transit))
+- [Service Package SU03-03(MPO-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/SU03-03(MPO-Mun))
 - [Service Package SU03-04(Transit)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/SU03-04(Transit))
 
-## Key Elements (12 total)
+## Key Elements (11 total)
 
 | Element | Status | Stakeholder |
 |---------|--------|-------------|
-| [County/Municipal ITS Field Equipment](https://www.consystec.com/maine2026/web/element.htm?id=45) | Existing | County/Municipal Traffic and Maintenance Agencies |
-| [County/Municipal Infrastructure Systems](https://www.consystec.com/maine2026/web/element.htm?id=267) | Planned | County/Municipal Traffic and Maintenance Agencies |
-| [County/Municipal TOCs](https://www.consystec.com/maine2026/web/element.htm?id=51) | Existing | County/Municipal Traffic and Maintenance Agencies |
 | [Local Transit Operations Centers](https://www.consystec.com/maine2026/web/element.htm?id=69) | Existing | Local Transit Agencies |
 | [Local Transit Vehicles](https://www.consystec.com/maine2026/web/element.htm?id=71) | Existing | Local Transit Agencies |
+| [MPO/Municipal ITS Field Equipment](https://www.consystec.com/maine2026/web/element.htm?id=45) | Existing | MPO/Municipal Traffic and Maintenance Agencies |
+| [MPO/Municipal Infrastructure Systems](https://www.consystec.com/maine2026/web/element.htm?id=267) | Planned | MPO/Municipal Traffic and Maintenance Agencies |
+| [MPO/Municipal Traffic Management Systems](https://www.consystec.com/maine2026/web/element.htm?id=51) | Existing | MPO/Municipal Traffic and Maintenance Agencies |
 | [Maine Turnpike Communications Center](https://www.consystec.com/maine2026/web/element.htm?id=278) | Planned | Maine Turnpike Authority |
 | [Maine Turnpike Communications Infrastructure Systems](https://www.consystec.com/maine2026/web/element.htm?id=285) | Planned | Maine Turnpike Authority |
 | [Maine Turnpike ITS Field Devices](https://www.consystec.com/maine2026/web/element.htm?id=280) | Planned | Maine Turnpike Authority |
 | [MaineDOT Communications Infrastructure Systems](https://www.consystec.com/maine2026/web/element.htm?id=265) | Planned | Maine Department of Transportation |
 | [MaineDOT ITS Field Devices](https://www.consystec.com/maine2026/web/element.htm?id=264) | Planned | Maine Department of Transportation |
-| [MaineDOT Regional Facilities](https://www.consystec.com/maine2026/web/element.htm?id=119) | Existing | Maine Department of Transportation |
 | [MaineDOT Statewide TMC](https://www.consystec.com/maine2026/web/element.htm?id=154) | Existing | Maine Department of Transportation |
 
 ## Interfaces (16 data flows)
 
 Real information flows between elements in this service area, in the form *Source Element → information flow → Destination Element*. Each links to its interface specification.
 
-- County/Municipal ITS Field Equipment → ITS information_ud → County/Municipal Infrastructure Systems — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=45-267)
-- County/Municipal Infrastructure Systems → ITS information_ud → County/Municipal ITS Field Equipment — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=45-267)
-- County/Municipal Infrastructure Systems → ITS information_ud → County/Municipal TOCs — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=51-267)
-- County/Municipal Infrastructure Systems → ITS information_ud → Local Transit Operations Centers — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=69-267)
-- County/Municipal Infrastructure Systems → ITS information_ud → Local Transit Vehicles — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=71-267)
-- County/Municipal TOCs → ITS information_ud → County/Municipal Infrastructure Systems — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=51-267)
-- Local Transit Operations Centers → ITS information_ud → County/Municipal Infrastructure Systems — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=69-267)
-- Local Transit Vehicles → ITS information_ud → County/Municipal Infrastructure Systems — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=71-267)
-- Maine Turnpike Communications Center → ITS information_ud → Maine Turnpike Communications Infrastructure Systems — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=278-285)
-- Maine Turnpike Communications Infrastructure Systems → ITS information_ud → Maine Turnpike Communications Center — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=278-285)
-- Maine Turnpike Communications Infrastructure Systems → ITS information_ud → Maine Turnpike ITS Field Devices — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=280-285)
-- Maine Turnpike ITS Field Devices → ITS information_ud → Maine Turnpike Communications Infrastructure Systems — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=280-285)
-- MaineDOT Communications Infrastructure Systems → ITS information_ud → MaineDOT ITS Field Devices — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=264-265)
-- MaineDOT Communications Infrastructure Systems → ITS information_ud → MaineDOT Statewide TMC — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=154-265)
-- MaineDOT ITS Field Devices → ITS information_ud → MaineDOT Communications Infrastructure Systems — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=264-265)
-- MaineDOT Statewide TMC → ITS information_ud → MaineDOT Communications Infrastructure Systems — [interface](https://www.consystec.com/maine2026/web/interface.htm?id=154-265)
+- Interface: Local Transit Operations Centers → ITS information_ud → MPO/Municipal Infrastructure Systems — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=69-267)
+- Interface: Local Transit Vehicles → ITS information_ud → MPO/Municipal Infrastructure Systems — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=71-267)
+- Interface: MPO/Municipal ITS Field Equipment → ITS information_ud → MPO/Municipal Infrastructure Systems — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=45-267)
+- Interface: MPO/Municipal Infrastructure Systems → ITS information_ud → Local Transit Operations Centers — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=69-267)
+- Interface: MPO/Municipal Infrastructure Systems → ITS information_ud → Local Transit Vehicles — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=71-267)
+- Interface: MPO/Municipal Infrastructure Systems → ITS information_ud → MPO/Municipal ITS Field Equipment — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=45-267)
+- Interface: MPO/Municipal Infrastructure Systems → ITS information_ud → MPO/Municipal Traffic Management Systems — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=51-267)
+- Interface: MPO/Municipal Traffic Management Systems → ITS information_ud → MPO/Municipal Infrastructure Systems — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=51-267)
+- Interface: Maine Turnpike Communications Center → ITS information_ud → Maine Turnpike Communications Infrastructure Systems — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=278-285)
+- Interface: Maine Turnpike Communications Infrastructure Systems → ITS information_ud → Maine Turnpike Communications Center — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=278-285)
+- Interface: Maine Turnpike Communications Infrastructure Systems → ITS information_ud → Maine Turnpike ITS Field Devices — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=280-285)
+- Interface: Maine Turnpike ITS Field Devices → ITS information_ud → Maine Turnpike Communications Infrastructure Systems — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=280-285)
+- Interface: MaineDOT Communications Infrastructure Systems → ITS information_ud → MaineDOT ITS Field Devices — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=264-265)
+- Interface: MaineDOT Communications Infrastructure Systems → ITS information_ud → MaineDOT Statewide TMC — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=154-265)
+- Interface: MaineDOT ITS Field Devices → ITS information_ud → MaineDOT Communications Infrastructure Systems — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=264-265)
+- Interface: MaineDOT Statewide TMC → ITS information_ud → MaineDOT Communications Infrastructure Systems — [ITS information_ud interface](https://www.consystec.com/maine2026/web/interface.htm?id=154-265)
 
-## Related Functional Requirements (63 found)
+## Related Functional Requirements (60 found)
 
 - [Functional Requirements: Vehicle Intersection Warning](https://www.consystec.com/maine2026/web/funreq.htm?id=1)
 - [Functional Requirements: Transit Center Priority Management](https://www.consystec.com/maine2026/web/funreq.htm?id=112)
@@ -98,12 +99,9 @@ Real information flows between elements in this service area, in the form *Sourc
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=83)
 - [Functional Requirements: Light Vehicle Payment Service](https://www.consystec.com/maine2026/web/funreq.htm?id=84)
 - [Functional Requirements: RSE Intersection Management](https://www.consystec.com/maine2026/web/funreq.htm?id=90)
-- [Functional Requirements: Light Vehicle Electric Charging Assist](https://www.consystec.com/maine2026/web/funreq.htm?id=98)
 - [Functional Requirements: EV On-Board En Route Support](https://www.consystec.com/maine2026/web/funreq.htm?id=_el109)
 - [Functional Requirements: EV Service Patrol Vehicle Operations](https://www.consystec.com/maine2026/web/funreq.htm?id=_el126)
-- [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el130)
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el153)
-- [Functional Requirements: Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=_el252)
 - [Functional Requirements: TIC Connected Vehicle Traveler Info Distribution](https://www.consystec.com/maine2026/web/funreq.htm?id=_el254)
 - [Functional Requirements: Field Asset Identification](https://www.consystec.com/maine2026/web/funreq.htm?id=_el264)
 - [Functional Requirements: ITS Data Subscription Management](https://www.consystec.com/maine2026/web/funreq.htm?id=_el265)

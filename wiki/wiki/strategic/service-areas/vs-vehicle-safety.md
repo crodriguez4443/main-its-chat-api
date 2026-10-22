@@ -7,31 +7,43 @@ V2V safety, automated driving, platooning, collision avoidance. (also: vehicle t
 ### Vehicle Safety & Automation
 *V2V, automated vehicles, platooning, collision avoidance, autonomous vehicle safety, basic safety, situational awareness, special vehicle alert, stop sign gap assist, road weather alert, restricted lane warnings, cooperative adaptive cruise control, METR, VRU clustering (also: vehicle to vehicle, V2X; also: self-driving, automated driving, ADS, ADAS, advanced driver assistance; also: winter maintenance, anti-icing, de-icing, snow removal, weather responsive management)*
 
+- [Service Package mpSH3_VS07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS07-01(MaineDOT))
+- [Service Package mpSH5_VS07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS07-01(MaineDOT))
 - [Service Package VS07-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/VS07-01(MaineDOT))
+- [Service Package mpSH3_VS08-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS08-01(MaineDOT))
+- [Service Package mpSH5_VS08-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS08-01(MaineDOT))
+- [Service Package mpSH83_VS08-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH83_VS08-01(MaineDOT))
 - [Service Package VS08-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/VS08-01(MaineDOT))
+- [Service Package mpSH3_VS09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS09-01(MaineDOT))
+- [Service Package mpSH5_VS09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS09-01(MaineDOT))
 - [Service Package VS09-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/VS09-01(MaineDOT))
-- [Service Package VS12-01(Co-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/VS12-01(Co-Mun))
+- [Service Package mpSH1_VS12-01(MPO-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH1_VS12-01(MPO-Mun))
+- [Service Package mpSH3_VS12-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS12-02(MaineDOT))
+- [Service Package mpSH5_VS12-01(MPO-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS12-01(MPO-Mun))
+- [Service Package mpSH5_VS12-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS12-02(MaineDOT))
+- [Service Package VS12-01(MPO-Mun)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/VS12-01(MPO-Mun))
 - [Service Package VS12-02(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/VS12-02(MaineDOT))
+- [Service Package mpSH3_VS13-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH3_VS13-01(MaineDOT))
+- [Service Package mpSH5_VS13-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/mpSH5_VS13-01(MaineDOT))
+- [Service Package VS13-01(MaineDOT)](https://www.consystec.com/maine2026/web/spinstance.htm?id=/VS13-01(MaineDOT))
 
-## Key Elements (13 total)
+## Key Elements (11 total)
 
 | Element | Status | Stakeholder |
 |---------|--------|-------------|
 | [511 Maine](https://www.consystec.com/maine2026/web/element.htm?id=115) | Existing | Maine Department of Transportation |
-| [County/Municipal Connected Vehicle Equipment](https://www.consystec.com/maine2026/web/element.htm?id=261) | Planned | County/Municipal Traffic and Maintenance Agencies |
-| [County/Municipal ITS Field Equipment](https://www.consystec.com/maine2026/web/element.htm?id=45) | Existing | County/Municipal Traffic and Maintenance Agencies |
-| [County/Municipal TOCs](https://www.consystec.com/maine2026/web/element.htm?id=51) | Existing | County/Municipal Traffic and Maintenance Agencies |
+| [MPO/Municipal Connected Vehicle Equipment](https://www.consystec.com/maine2026/web/element.htm?id=261) | Planned | MPO/Municipal Traffic and Maintenance Agencies |
+| [MPO/Municipal ITS Field Equipment](https://www.consystec.com/maine2026/web/element.htm?id=45) | Existing | MPO/Municipal Traffic and Maintenance Agencies |
+| [MPO/Municipal Traffic Management Systems](https://www.consystec.com/maine2026/web/element.htm?id=51) | Existing | MPO/Municipal Traffic and Maintenance Agencies |
+| [Maine Link](https://www.consystec.com/maine2026/web/element.htm?id=294) | Existing | Maine Department of Transportation |
 | [MaineDOT Connected Vehicle Equipment](https://www.consystec.com/maine2026/web/element.htm?id=268) | Planned | Maine Department of Transportation |
 | [MaineDOT ITS Field Devices](https://www.consystec.com/maine2026/web/element.htm?id=264) | Planned | Maine Department of Transportation |
-| [MaineDOT Regional Facilities](https://www.consystec.com/maine2026/web/element.htm?id=119) | Existing | Maine Department of Transportation |
-| [MaineDOT Signals Lab](https://www.consystec.com/maine2026/web/element.htm?id=149) | Existing | Maine Department of Transportation |
-| [MaineDOT Statewide TMC](https://www.consystec.com/maine2026/web/element.htm?id=154) | Existing | Maine Department of Transportation |
 | [Other Vehicle OBEs](https://www.consystec.com/maine2026/web/element.htm?id=255) | Planned | Private Travelers |
 | [Private Third Party Information Providers](https://www.consystec.com/maine2026/web/element.htm?id=254) | Existing | Private Traffic Data Provider |
 | [Private Travelers Personal Computing Devices](https://www.consystec.com/maine2026/web/element.htm?id=187) | Existing | Private Travelers |
 | [Private Travelers Vehicles](https://www.consystec.com/maine2026/web/element.htm?id=252) | Existing | Private Travelers |
 
-## Related Functional Requirements (7 found)
+## Related Functional Requirements (6 found)
 
 - [Functional Requirements: Vehicle Intersection Warning](https://www.consystec.com/maine2026/web/funreq.htm?id=1)
 - [Functional Requirements: Transit Center Paratransit Operations](https://www.consystec.com/maine2026/web/funreq.htm?id=165)
@@ -39,7 +51,6 @@ V2V safety, automated driving, platooning, collision avoidance. (also: vehicle t
 - [Functional Requirements: Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=39)
 - [Functional Requirements: Transit Center Fixed-Route Operations](https://www.consystec.com/maine2026/web/funreq.htm?id=390)
 - [Functional Requirements: Personal Pedestrian Safety](https://www.consystec.com/maine2026/web/funreq.htm?id=66)
-- [Functional Requirements: Vehicle Basic Safety Communication](https://www.consystec.com/maine2026/web/funreq.htm?id=_el252)
 
 ## Deployment Guidance
 
