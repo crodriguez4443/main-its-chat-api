@@ -5,7 +5,7 @@ import json
 import csv
 import re
 
-import wiki.config as config
+import config
 
 
 def generate_url(file_path, base_url=None):

@@ -28,7 +28,7 @@ from collections import defaultdict
 # Pull defaults from config.py (one directory up) when available.
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 try:
-    from wiki.config import DOT_NAME, ARCHITECTURE_BASE_URL
+    from config import DOT_NAME, ARCHITECTURE_BASE_URL
 except ImportError:
     DOT_NAME = "ITS Architecture"
     ARCHITECTURE_BASE_URL = ""
