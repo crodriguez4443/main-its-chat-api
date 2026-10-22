@@ -24,7 +24,7 @@ from datetime import datetime, timedelta
 from threading import Lock
 from typing import Optional, Tuple
 
-import config
+import wiki.config as config
 
 DATABASE_PATH = config.DATABASE_PATH
 

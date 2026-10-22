@@ -18,8 +18,8 @@ from enum import Enum
 from datetime import datetime, timedelta
 import uuid
 import time
-import session_store
-from config import (
+import wiki.session_store as session_store
+from wiki.config import (
     MAX_QUERIES_PER_DAY,
     MAX_QUERIES_PER_CONVERSATION,
     SESSION_CLEANUP_HOURS,
